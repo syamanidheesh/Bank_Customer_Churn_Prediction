@@ -1,101 +1,2606 @@
-customer_id,risk_level,churn_prob,predicted,actual,strategy
-1000,Low Risk,1.98%,No,No,"Customer 1000 - Low Risk
-Age: 36.0, Products: 2.0
-💡 Offer: Thank you gift (coffee voucher)
-💡 Offer: Early access to new products
-💡 Offer: Birthday bonus"
-1001,Low Risk,5.13%,No,No,"Customer 1001 - Low Risk
-Age: 32.0, Products: 2.0
-💡 Offer: Thank you gift (coffee voucher)
-💡 Offer: Early access to new products
-💡 Offer: Birthday bonus"
-1002,Low Risk,3.87%,No,No,"Customer 1002 - Low Risk
-Age: 37.0, Products: 2.0
-💡 Offer: Thank you gift (coffee voucher)
-💡 Offer: Early access to new products
-💡 Offer: Birthday bonus"
-1003,Low Risk,6.83%,No,No,"Customer 1003 - Low Risk
-Age: 57.0, Products: 2.0
-💡 Offer: Thank you gift (coffee voucher)
-💡 Offer: Early access to new products
-💡 Offer: Birthday bonus"
-1004,Low Risk,16.65%,No,No,"Customer 1004 - Low Risk
-Age: 45.0, Products: 2.0
-💡 Offer: Thank you gift (coffee voucher)
-💡 Offer: Early access to new products
-💡 Offer: Birthday bonus"
-1005,Medium Risk,38.24%,No,No,"Customer 1005 - Medium Risk
-Age: 36.0, Products: 1.0
-💡 Offer: Re-engagement bonus (cashback)
-💡 Offer: Free credit score monitoring
-💡 Offer: Welcome back kit with benefits"
-1006,Low Risk,2.52%,No,No,"Customer 1006 - Low Risk
-Age: 41.0, Products: 2.0
-💡 Offer: Thank you gift (coffee voucher)
-💡 Offer: Early access to new products
-💡 Offer: Birthday bonus"
-1007,Medium Risk,36.29%,No,No,"Customer 1007 - Medium Risk
-Age: 41.0, Products: 1.0
-💡 Offer: Loyalty points multiplier
-💡 Offer: Referral bonus program
-💡 Offer: Exclusive event invitations"
-1008,High Risk,86.56%,Yes,No,"Customer 1008 - High Risk
-Age: 44.0, Products: 1.0
-💡 Offer: Bundle additional products with 20% discount
-💡 Offer: Personal banker consultation
-💡 Offer: Fee waiver for 6 months"
-1009,Low Risk,10.54%,No,No,"Customer 1009 - Low Risk
-Age: 34.0, Products: 1.0
-💡 Offer: Thank you gift (coffee voucher)
-💡 Offer: Early access to new products
-💡 Offer: Birthday bonus"
-1010,Medium Risk,65.34%,Yes,Yes,"Customer 1010 - Medium Risk
-Age: 51.0, Products: 2.0
-💡 Offer: Re-engagement bonus (cashback)
-💡 Offer: Free credit score monitoring
-💡 Offer: Welcome back kit with benefits"
-1011,Low Risk,26.50%,No,No,"Customer 1011 - Low Risk
-Age: 35.0, Products: 2.0
-💡 Offer: Thank you gift (coffee voucher)
-💡 Offer: Early access to new products
-💡 Offer: Birthday bonus"
-1012,Low Risk,1.64%,No,No,"Customer 1012 - Low Risk
-Age: 34.0, Products: 2.0
-💡 Offer: Thank you gift (coffee voucher)
-💡 Offer: Early access to new products
-💡 Offer: Birthday bonus"
-1013,Low Risk,7.04%,No,No,"Customer 1013 - Low Risk
-Age: 32.0, Products: 1.0
-💡 Offer: Thank you gift (coffee voucher)
-💡 Offer: Early access to new products
-💡 Offer: Birthday bonus"
-1014,Low Risk,20.60%,No,No,"Customer 1014 - Low Risk
-Age: 39.0, Products: 1.0
-💡 Offer: Thank you gift (coffee voucher)
-💡 Offer: Early access to new products
-💡 Offer: Birthday bonus"
-1015,Low Risk,0.77%,No,No,"Customer 1015 - Low Risk
-Age: 26.0, Products: 2.0
-💡 Offer: Thank you gift (coffee voucher)
-💡 Offer: Early access to new products
-💡 Offer: Birthday bonus"
-1016,Low Risk,6.74%,No,No,"Customer 1016 - Low Risk
-Age: 41.0, Products: 2.0
-💡 Offer: Thank you gift (coffee voucher)
-💡 Offer: Early access to new products
-💡 Offer: Birthday bonus"
-1017,Low Risk,10.51%,No,No,"Customer 1017 - Low Risk
-Age: 50.0, Products: 1.0
-💡 Offer: Thank you gift (coffee voucher)
-💡 Offer: Early access to new products
-💡 Offer: Birthday bonus"
-1018,Medium Risk,68.46%,Yes,Yes,"Customer 1018 - Medium Risk
-Age: 23.0, Products: 1.0
-💡 Offer: Re-engagement bonus (cashback)
-💡 Offer: Free credit score monitoring
-💡 Offer: Welcome back kit with benefits"
-1019,Medium Risk,31.60%,No,No,"Customer 1019 - Medium Risk
-Age: 73.0, Products: 2.0
-💡 Offer: Loyalty points multiplier
-💡 Offer: Referral bonus program
-💡 Offer: Exclusive event invitations"
+customer_id,risk_level,churn_probability,predicted_churn,actual_churn,age,products,balance,active,credit_score,strategy
+CUST_1001,Low Risk,2.0%,No,No,36.0,2.0,"$102,603.30",True,747.0,"
+============================================================
+🎯 RETENTION STRATEGY FOR CUST_1001
+============================================================
+
+📊 CUSTOMER SUMMARY:
+────────────────────────────────────────────────
+• Risk Level: Low Risk
+• Churn Probability: 2.0%
+• Age: 36.0 | Gender: Male | Location: Germany
+• Products: 2.0 | Active Member: Yes
+• Balance: $102,603.30 | Credit Score: 747.0
+
+
+🟢 LOYALTY REINFORCEMENT
+────────────────────────────────────────────────
+
+📋 CUSTOMER VALUE ANALYSIS:
+• This is a LOYAL customer with LOW churn risk ({prob:.1%})
+• Actively engaged customer
+• Focus on maintaining satisfaction and encouraging referrals
+
+🎯 RECOMMENDED RETENTION ACTIONS:
+
+1️⃣ APPRECIATION REWARDS:
+   • $10 coffee voucher or gift card
+   • Birthday bonus: $5 cashback
+   • Anniversary gift: Double points for a month
+
+2️⃣ EXCLUSIVE BENEFITS:
+   • Early access to new banking features
+   • Invitation to customer appreciation events
+   • Priority customer support line
+
+3️⃣ REFERRAL PROGRAM:
+   • Enhanced referral bonus: $75 per successful referral
+   • Referral leaderboard with quarterly prizes
+   • ""Friend & Family"" special offers
+
+📈 EXPECTED IMPACT:
+   • 10-15% increase in loyalty metrics
+   • Higher referral rate (estimated 2-3 referrals/year)
+   • Maintain customer satisfaction >90%
+
+💌 NEXT STEPS:
+   • Send appreciation email this month
+   • Invite to next customer event
+   • Monitor for any changes in behavior
+
+------------------------------------------------------------
+Strategy Generated: 2026-03-10 20:28:34
+============================================================"
+CUST_1002,Low Risk,5.1%,No,No,32.0,2.0,$0.00,False,707.0,"
+============================================================
+🎯 RETENTION STRATEGY FOR CUST_1002
+============================================================
+
+📊 CUSTOMER SUMMARY:
+────────────────────────────────────────────────
+• Risk Level: Low Risk
+• Churn Probability: 5.1%
+• Age: 32.0 | Gender: Male | Location: Spain
+• Products: 2.0 | Active Member: No
+• Balance: $0.00 | Credit Score: 707.0
+
+
+🟢 LOYALTY REINFORCEMENT
+────────────────────────────────────────────────
+
+📋 CUSTOMER VALUE ANALYSIS:
+• This is a LOYAL customer with LOW churn risk ({prob:.1%})
+• Stable customer with good engagement
+• Focus on maintaining satisfaction and encouraging referrals
+
+🎯 RECOMMENDED RETENTION ACTIONS:
+
+1️⃣ APPRECIATION REWARDS:
+   • $10 coffee voucher or gift card
+   • Birthday bonus: $5 cashback
+   • Anniversary gift: Double points for a month
+
+2️⃣ EXCLUSIVE BENEFITS:
+   • Early access to new banking features
+   • Invitation to customer appreciation events
+   • Priority customer support line
+
+3️⃣ REFERRAL PROGRAM:
+   • Enhanced referral bonus: $75 per successful referral
+   • Referral leaderboard with quarterly prizes
+   • ""Friend & Family"" special offers
+
+📈 EXPECTED IMPACT:
+   • 10-15% increase in loyalty metrics
+   • Higher referral rate (estimated 2-3 referrals/year)
+   • Maintain customer satisfaction >90%
+
+💌 NEXT STEPS:
+   • Send appreciation email this month
+   • Invite to next customer event
+   • Monitor for any changes in behavior
+
+------------------------------------------------------------
+Strategy Generated: 2026-03-10 20:28:34
+============================================================"
+CUST_1003,Low Risk,3.9%,No,No,37.0,2.0,$0.00,False,590.0,"
+============================================================
+🎯 RETENTION STRATEGY FOR CUST_1003
+============================================================
+
+📊 CUSTOMER SUMMARY:
+────────────────────────────────────────────────
+• Risk Level: Low Risk
+• Churn Probability: 3.9%
+• Age: 37.0 | Gender: Male | Location: Spain
+• Products: 2.0 | Active Member: No
+• Balance: $0.00 | Credit Score: 590.0
+
+
+🟢 LOYALTY REINFORCEMENT
+────────────────────────────────────────────────
+
+📋 CUSTOMER VALUE ANALYSIS:
+• This is a LOYAL customer with LOW churn risk ({prob:.1%})
+• Stable customer with good engagement
+• Focus on maintaining satisfaction and encouraging referrals
+
+🎯 RECOMMENDED RETENTION ACTIONS:
+
+1️⃣ APPRECIATION REWARDS:
+   • $10 coffee voucher or gift card
+   • Birthday bonus: $5 cashback
+   • Anniversary gift: Double points for a month
+
+2️⃣ EXCLUSIVE BENEFITS:
+   • Early access to new banking features
+   • Invitation to customer appreciation events
+   • Priority customer support line
+
+3️⃣ REFERRAL PROGRAM:
+   • Enhanced referral bonus: $75 per successful referral
+   • Referral leaderboard with quarterly prizes
+   • ""Friend & Family"" special offers
+
+📈 EXPECTED IMPACT:
+   • 10-15% increase in loyalty metrics
+   • Higher referral rate (estimated 2-3 referrals/year)
+   • Maintain customer satisfaction >90%
+
+💌 NEXT STEPS:
+   • Send appreciation email this month
+   • Invite to next customer event
+   • Monitor for any changes in behavior
+
+------------------------------------------------------------
+Strategy Generated: 2026-03-10 20:28:34
+============================================================"
+CUST_1004,Low Risk,6.8%,No,No,57.0,2.0,"$105,000.85",True,603.0,"
+============================================================
+🎯 RETENTION STRATEGY FOR CUST_1004
+============================================================
+
+📊 CUSTOMER SUMMARY:
+────────────────────────────────────────────────
+• Risk Level: Low Risk
+• Churn Probability: 6.8%
+• Age: 57.0 | Gender: Male | Location: Spain
+• Products: 2.0 | Active Member: Yes
+• Balance: $105,000.85 | Credit Score: 603.0
+
+
+🟢 LOYALTY REINFORCEMENT
+────────────────────────────────────────────────
+
+📋 CUSTOMER VALUE ANALYSIS:
+• This is a LOYAL customer with LOW churn risk ({prob:.1%})
+• Actively engaged customer
+• Focus on maintaining satisfaction and encouraging referrals
+
+🎯 RECOMMENDED RETENTION ACTIONS:
+
+1️⃣ APPRECIATION REWARDS:
+   • $10 coffee voucher or gift card
+   • Birthday bonus: $5 cashback
+   • Anniversary gift: Double points for a month
+
+2️⃣ EXCLUSIVE BENEFITS:
+   • Early access to new banking features
+   • Invitation to customer appreciation events
+   • Priority customer support line
+
+3️⃣ REFERRAL PROGRAM:
+   • Enhanced referral bonus: $75 per successful referral
+   • Referral leaderboard with quarterly prizes
+   • ""Friend & Family"" special offers
+
+📈 EXPECTED IMPACT:
+   • 10-15% increase in loyalty metrics
+   • Higher referral rate (estimated 2-3 referrals/year)
+   • Maintain customer satisfaction >90%
+
+💌 NEXT STEPS:
+   • Send appreciation email this month
+   • Invite to next customer event
+   • Monitor for any changes in behavior
+
+------------------------------------------------------------
+Strategy Generated: 2026-03-10 20:28:34
+============================================================"
+CUST_1005,Low Risk,16.7%,No,No,45.0,2.0,$0.00,True,615.0,"
+============================================================
+🎯 RETENTION STRATEGY FOR CUST_1005
+============================================================
+
+📊 CUSTOMER SUMMARY:
+────────────────────────────────────────────────
+• Risk Level: Low Risk
+• Churn Probability: 16.7%
+• Age: 45.0 | Gender: Male | Location: France
+• Products: 2.0 | Active Member: Yes
+• Balance: $0.00 | Credit Score: 615.0
+
+
+🟢 LOYALTY REINFORCEMENT
+────────────────────────────────────────────────
+
+📋 CUSTOMER VALUE ANALYSIS:
+• This is a LOYAL customer with LOW churn risk ({prob:.1%})
+• Actively engaged customer
+• Focus on maintaining satisfaction and encouraging referrals
+
+🎯 RECOMMENDED RETENTION ACTIONS:
+
+1️⃣ APPRECIATION REWARDS:
+   • $10 coffee voucher or gift card
+   • Birthday bonus: $5 cashback
+   • Anniversary gift: Double points for a month
+
+2️⃣ EXCLUSIVE BENEFITS:
+   • Early access to new banking features
+   • Invitation to customer appreciation events
+   • Priority customer support line
+
+3️⃣ REFERRAL PROGRAM:
+   • Enhanced referral bonus: $75 per successful referral
+   • Referral leaderboard with quarterly prizes
+   • ""Friend & Family"" special offers
+
+📈 EXPECTED IMPACT:
+   • 10-15% increase in loyalty metrics
+   • Higher referral rate (estimated 2-3 referrals/year)
+   • Maintain customer satisfaction >90%
+
+💌 NEXT STEPS:
+   • Send appreciation email this month
+   • Invite to next customer event
+   • Monitor for any changes in behavior
+
+------------------------------------------------------------
+Strategy Generated: 2026-03-10 20:28:34
+============================================================"
+CUST_1006,Medium Risk,38.2%,No,No,36.0,1.0,"$69,518.95",False,634.0,"
+============================================================
+🎯 RETENTION STRATEGY FOR CUST_1006
+============================================================
+
+📊 CUSTOMER SUMMARY:
+────────────────────────────────────────────────
+• Risk Level: Medium Risk
+• Churn Probability: 38.2%
+• Age: 36.0 | Gender: Female | Location: France
+• Products: 1.0 | Active Member: No
+• Balance: $69,518.95 | Credit Score: 634.0
+
+
+🟠 PROACTIVE RETENTION CAMPAIGN
+────────────────────────────────────────────────
+
+📋 RISK ANALYSIS:
+• Customer shows MODERATE risk of churn ({prob:.1%})
+• Customer is currently INACTIVE - needs re-engagement
+• Proactive engagement recommended within 1 week
+
+🎯 RECOMMENDED RETENTION ACTIONS:
+
+1️⃣ LOYALTY REWARDS:
+   • Double loyalty points for 3 months
+   • Birthday bonus: $10 cashback
+   • Anniversary gift: Free coffee voucher
+
+2️⃣ VALUE-ADDED SERVICES:
+   • Free credit score monitoring for 6 months
+   • Financial planning webinar invitation
+   • Pre-approved credit line increase of $5,000
+
+3️⃣ ENGAGEMENT CAMPAIGN:
+   • Personalized email with offers
+   • App push notifications
+   • Monthly newsletter with tips
+
+📈 EXPECTED IMPACT:
+   • 25-35% reduction in churn probability
+   • Estimated value saved: ${estimated_value:,.0f}
+   • ROI: $3-5 per $1 spent
+
+📧 NEXT STEPS:
+   • Send email campaign within 1 week
+   • Track open rates and engagement
+   • Follow up with non-responders
+
+------------------------------------------------------------
+Strategy Generated: 2026-03-10 20:28:34
+============================================================"
+CUST_1007,Low Risk,2.5%,No,No,41.0,2.0,"$126,145.54",True,716.0,"
+============================================================
+🎯 RETENTION STRATEGY FOR CUST_1007
+============================================================
+
+📊 CUSTOMER SUMMARY:
+────────────────────────────────────────────────
+• Risk Level: Low Risk
+• Churn Probability: 2.5%
+• Age: 41.0 | Gender: Male | Location: Germany
+• Products: 2.0 | Active Member: Yes
+• Balance: $126,145.54 | Credit Score: 716.0
+
+
+🟢 LOYALTY REINFORCEMENT
+────────────────────────────────────────────────
+
+📋 CUSTOMER VALUE ANALYSIS:
+• This is a LOYAL customer with LOW churn risk ({prob:.1%})
+• Actively engaged customer
+• Focus on maintaining satisfaction and encouraging referrals
+
+🎯 RECOMMENDED RETENTION ACTIONS:
+
+1️⃣ APPRECIATION REWARDS:
+   • $10 coffee voucher or gift card
+   • Birthday bonus: $5 cashback
+   • Anniversary gift: Double points for a month
+
+2️⃣ EXCLUSIVE BENEFITS:
+   • Early access to new banking features
+   • Invitation to customer appreciation events
+   • Priority customer support line
+
+3️⃣ REFERRAL PROGRAM:
+   • Enhanced referral bonus: $75 per successful referral
+   • Referral leaderboard with quarterly prizes
+   • ""Friend & Family"" special offers
+
+📈 EXPECTED IMPACT:
+   • 10-15% increase in loyalty metrics
+   • Higher referral rate (estimated 2-3 referrals/year)
+   • Maintain customer satisfaction >90%
+
+💌 NEXT STEPS:
+   • Send appreciation email this month
+   • Invite to next customer event
+   • Monitor for any changes in behavior
+
+------------------------------------------------------------
+Strategy Generated: 2026-03-10 20:28:34
+============================================================"
+CUST_1008,Medium Risk,36.3%,No,No,41.0,1.0,"$138,937.35",True,647.0,"
+============================================================
+🎯 RETENTION STRATEGY FOR CUST_1008
+============================================================
+
+📊 CUSTOMER SUMMARY:
+────────────────────────────────────────────────
+• Risk Level: Medium Risk
+• Churn Probability: 36.3%
+• Age: 41.0 | Gender: Male | Location: France
+• Products: 1.0 | Active Member: Yes
+• Balance: $138,937.35 | Credit Score: 647.0
+
+
+🟠 PROACTIVE RETENTION CAMPAIGN
+────────────────────────────────────────────────
+
+📋 RISK ANALYSIS:
+• Customer shows MODERATE risk of churn ({prob:.1%})
+• Customer is ACTIVE but showing early warning signs
+• Proactive engagement recommended within 1 week
+
+🎯 RECOMMENDED RETENTION ACTIONS:
+
+1️⃣ LOYALTY REWARDS:
+   • Double loyalty points for 3 months
+   • Birthday bonus: $10 cashback
+   • Anniversary gift: Free coffee voucher
+
+2️⃣ VALUE-ADDED SERVICES:
+   • Free credit score monitoring for 6 months
+   • Financial planning webinar invitation
+   • Pre-approved credit line increase of $5,000
+
+3️⃣ ENGAGEMENT CAMPAIGN:
+   • Personalized email with offers
+   • App push notifications
+   • Monthly newsletter with tips
+
+📈 EXPECTED IMPACT:
+   • 25-35% reduction in churn probability
+   • Estimated value saved: ${estimated_value:,.0f}
+   • ROI: $3-5 per $1 spent
+
+📧 NEXT STEPS:
+   • Send email campaign within 1 week
+   • Track open rates and engagement
+   • Follow up with non-responders
+
+------------------------------------------------------------
+Strategy Generated: 2026-03-10 20:28:34
+============================================================"
+CUST_1009,High Risk,86.6%,Yes,No,44.0,1.0,"$113,581.98",False,591.0,"
+============================================================
+🎯 RETENTION STRATEGY FOR CUST_1009
+============================================================
+
+📊 CUSTOMER SUMMARY:
+────────────────────────────────────────────────
+• Risk Level: High Risk
+• Churn Probability: 86.6%
+• Age: 44.0 | Gender: Female | Location: Germany
+• Products: 1.0 | Active Member: No
+• Balance: $113,581.98 | Credit Score: 591.0
+
+
+🔴 URGENT INTERVENTION REQUIRED
+────────────────────────────────────────────────
+
+📋 RISK ANALYSIS:
+• This customer is at HIGH RISK of churn with {prob:.1%} probability
+• Customer is INACTIVE - needs re-engagement
+• Immediate action required within 24-48 hours
+
+🎯 RECOMMENDED RETENTION ACTIONS:
+
+1️⃣ IMMEDIATE OUTREACH:
+   • Priority phone call within 24 hours
+   • Personal banker assigned for follow-up
+   • Welcome package with personalized offers
+
+2️⃣ PREMIUM RETENTION OFFER:
+   • Upgrade to Premium Banking - first 6 months FREE
+   • Dedicated relationship manager
+   • Exclusive investment opportunities with reduced fees
+
+3️⃣ PRODUCT BUNDLE OFFER:
+   • Bundle 2 additional products with 25% discount for 12 months
+   • Free credit card annual fee waiver
+   • Personal financial consultation
+
+4️⃣ RE-ENGAGEMENT CAMPAIGN:
+   • Welcome back bonus: $50 after first transaction
+   • Personalized app notification with offers
+   • Email campaign with success stories
+
+📈 EXPECTED IMPACT:
+   • 40-50% reduction in churn probability
+   • Estimated value saved: ${estimated_value:,.0f}
+   • ROI: $6-8 per $1 spent
+
+📞 NEXT STEPS:
+   • Contact within 24 hours
+   • Document all interactions in CRM
+   • Follow up after 1 week
+
+------------------------------------------------------------
+Strategy Generated: 2026-03-10 20:28:34
+============================================================"
+CUST_1010,Low Risk,10.5%,No,No,34.0,1.0,"$112,572.39",False,574.0,"
+============================================================
+🎯 RETENTION STRATEGY FOR CUST_1010
+============================================================
+
+📊 CUSTOMER SUMMARY:
+────────────────────────────────────────────────
+• Risk Level: Low Risk
+• Churn Probability: 10.5%
+• Age: 34.0 | Gender: Male | Location: France
+• Products: 1.0 | Active Member: No
+• Balance: $112,572.39 | Credit Score: 574.0
+
+
+🟢 LOYALTY REINFORCEMENT
+────────────────────────────────────────────────
+
+📋 CUSTOMER VALUE ANALYSIS:
+• This is a LOYAL customer with LOW churn risk ({prob:.1%})
+• High-value loyal customer
+• Focus on maintaining satisfaction and encouraging referrals
+
+🎯 RECOMMENDED RETENTION ACTIONS:
+
+1️⃣ APPRECIATION REWARDS:
+   • $10 coffee voucher or gift card
+   • Birthday bonus: $5 cashback
+   • Anniversary gift: Double points for a month
+
+2️⃣ EXCLUSIVE BENEFITS:
+   • Early access to new banking features
+   • Invitation to customer appreciation events
+   • Priority customer support line
+
+3️⃣ REFERRAL PROGRAM:
+   • Enhanced referral bonus: $75 per successful referral
+   • Referral leaderboard with quarterly prizes
+   • ""Friend & Family"" special offers
+
+📈 EXPECTED IMPACT:
+   • 10-15% increase in loyalty metrics
+   • Higher referral rate (estimated 2-3 referrals/year)
+   • Maintain customer satisfaction >90%
+
+💌 NEXT STEPS:
+   • Send appreciation email this month
+   • Invite to next customer event
+   • Monitor for any changes in behavior
+
+------------------------------------------------------------
+Strategy Generated: 2026-03-10 20:28:34
+============================================================"
+CUST_1011,Medium Risk,65.3%,Yes,Yes,51.0,2.0,"$114,514.71",False,467.0,"
+============================================================
+🎯 RETENTION STRATEGY FOR CUST_1011
+============================================================
+
+📊 CUSTOMER SUMMARY:
+────────────────────────────────────────────────
+• Risk Level: Medium Risk
+• Churn Probability: 65.3%
+• Age: 51.0 | Gender: Male | Location: Germany
+• Products: 2.0 | Active Member: No
+• Balance: $114,514.71 | Credit Score: 467.0
+
+
+🟠 PROACTIVE RETENTION CAMPAIGN
+────────────────────────────────────────────────
+
+📋 RISK ANALYSIS:
+• Customer shows MODERATE risk of churn ({prob:.1%})
+• Customer is currently INACTIVE - needs re-engagement
+• Proactive engagement recommended within 1 week
+
+🎯 RECOMMENDED RETENTION ACTIONS:
+
+1️⃣ LOYALTY REWARDS:
+   • Double loyalty points for 3 months
+   • Birthday bonus: $10 cashback
+   • Anniversary gift: Free coffee voucher
+
+2️⃣ VALUE-ADDED SERVICES:
+   • Free credit score monitoring for 6 months
+   • Financial planning webinar invitation
+   • Pre-approved credit line increase of $5,000
+
+3️⃣ ENGAGEMENT CAMPAIGN:
+   • Personalized email with offers
+   • App push notifications
+   • Monthly newsletter with tips
+
+📈 EXPECTED IMPACT:
+   • 25-35% reduction in churn probability
+   • Estimated value saved: ${estimated_value:,.0f}
+   • ROI: $3-5 per $1 spent
+
+📧 NEXT STEPS:
+   • Send email campaign within 1 week
+   • Track open rates and engagement
+   • Follow up with non-responders
+
+------------------------------------------------------------
+Strategy Generated: 2026-03-10 20:28:34
+============================================================"
+CUST_1012,Low Risk,26.5%,No,No,35.0,2.0,$0.00,True,701.0,"
+============================================================
+🎯 RETENTION STRATEGY FOR CUST_1012
+============================================================
+
+📊 CUSTOMER SUMMARY:
+────────────────────────────────────────────────
+• Risk Level: Low Risk
+• Churn Probability: 26.5%
+• Age: 35.0 | Gender: Female | Location: France
+• Products: 2.0 | Active Member: Yes
+• Balance: $0.00 | Credit Score: 701.0
+
+
+🟢 LOYALTY REINFORCEMENT
+────────────────────────────────────────────────
+
+📋 CUSTOMER VALUE ANALYSIS:
+• This is a LOYAL customer with LOW churn risk ({prob:.1%})
+• Actively engaged customer
+• Focus on maintaining satisfaction and encouraging referrals
+
+🎯 RECOMMENDED RETENTION ACTIONS:
+
+1️⃣ APPRECIATION REWARDS:
+   • $10 coffee voucher or gift card
+   • Birthday bonus: $5 cashback
+   • Anniversary gift: Double points for a month
+
+2️⃣ EXCLUSIVE BENEFITS:
+   • Early access to new banking features
+   • Invitation to customer appreciation events
+   • Priority customer support line
+
+3️⃣ REFERRAL PROGRAM:
+   • Enhanced referral bonus: $75 per successful referral
+   • Referral leaderboard with quarterly prizes
+   • ""Friend & Family"" special offers
+
+📈 EXPECTED IMPACT:
+   • 10-15% increase in loyalty metrics
+   • Higher referral rate (estimated 2-3 referrals/year)
+   • Maintain customer satisfaction >90%
+
+💌 NEXT STEPS:
+   • Send appreciation email this month
+   • Invite to next customer event
+   • Monitor for any changes in behavior
+
+------------------------------------------------------------
+Strategy Generated: 2026-03-10 20:28:34
+============================================================"
+CUST_1013,Low Risk,1.6%,No,No,34.0,2.0,$0.00,True,747.0,"
+============================================================
+🎯 RETENTION STRATEGY FOR CUST_1013
+============================================================
+
+📊 CUSTOMER SUMMARY:
+────────────────────────────────────────────────
+• Risk Level: Low Risk
+• Churn Probability: 1.6%
+• Age: 34.0 | Gender: Female | Location: France
+• Products: 2.0 | Active Member: Yes
+• Balance: $0.00 | Credit Score: 747.0
+
+
+🟢 LOYALTY REINFORCEMENT
+────────────────────────────────────────────────
+
+📋 CUSTOMER VALUE ANALYSIS:
+• This is a LOYAL customer with LOW churn risk ({prob:.1%})
+• Actively engaged customer
+• Focus on maintaining satisfaction and encouraging referrals
+
+🎯 RECOMMENDED RETENTION ACTIONS:
+
+1️⃣ APPRECIATION REWARDS:
+   • $10 coffee voucher or gift card
+   • Birthday bonus: $5 cashback
+   • Anniversary gift: Double points for a month
+
+2️⃣ EXCLUSIVE BENEFITS:
+   • Early access to new banking features
+   • Invitation to customer appreciation events
+   • Priority customer support line
+
+3️⃣ REFERRAL PROGRAM:
+   • Enhanced referral bonus: $75 per successful referral
+   • Referral leaderboard with quarterly prizes
+   • ""Friend & Family"" special offers
+
+📈 EXPECTED IMPACT:
+   • 10-15% increase in loyalty metrics
+   • Higher referral rate (estimated 2-3 referrals/year)
+   • Maintain customer satisfaction >90%
+
+💌 NEXT STEPS:
+   • Send appreciation email this month
+   • Invite to next customer event
+   • Monitor for any changes in behavior
+
+------------------------------------------------------------
+Strategy Generated: 2026-03-10 20:28:34
+============================================================"
+CUST_1014,Low Risk,7.0%,No,No,32.0,1.0,"$84,906.45",False,650.0,"
+============================================================
+🎯 RETENTION STRATEGY FOR CUST_1014
+============================================================
+
+📊 CUSTOMER SUMMARY:
+────────────────────────────────────────────────
+• Risk Level: Low Risk
+• Churn Probability: 7.0%
+• Age: 32.0 | Gender: Male | Location: France
+• Products: 1.0 | Active Member: No
+• Balance: $84,906.45 | Credit Score: 650.0
+
+
+🟢 LOYALTY REINFORCEMENT
+────────────────────────────────────────────────
+
+📋 CUSTOMER VALUE ANALYSIS:
+• This is a LOYAL customer with LOW churn risk ({prob:.1%})
+• Stable customer with good engagement
+• Focus on maintaining satisfaction and encouraging referrals
+
+🎯 RECOMMENDED RETENTION ACTIONS:
+
+1️⃣ APPRECIATION REWARDS:
+   • $10 coffee voucher or gift card
+   • Birthday bonus: $5 cashback
+   • Anniversary gift: Double points for a month
+
+2️⃣ EXCLUSIVE BENEFITS:
+   • Early access to new banking features
+   • Invitation to customer appreciation events
+   • Priority customer support line
+
+3️⃣ REFERRAL PROGRAM:
+   • Enhanced referral bonus: $75 per successful referral
+   • Referral leaderboard with quarterly prizes
+   • ""Friend & Family"" special offers
+
+📈 EXPECTED IMPACT:
+   • 10-15% increase in loyalty metrics
+   • Higher referral rate (estimated 2-3 referrals/year)
+   • Maintain customer satisfaction >90%
+
+💌 NEXT STEPS:
+   • Send appreciation email this month
+   • Invite to next customer event
+   • Monitor for any changes in behavior
+
+------------------------------------------------------------
+Strategy Generated: 2026-03-10 20:28:34
+============================================================"
+CUST_1015,Low Risk,20.6%,No,No,39.0,1.0,"$126,816.18",True,731.0,"
+============================================================
+🎯 RETENTION STRATEGY FOR CUST_1015
+============================================================
+
+📊 CUSTOMER SUMMARY:
+────────────────────────────────────────────────
+• Risk Level: Low Risk
+• Churn Probability: 20.6%
+• Age: 39.0 | Gender: Female | Location: Spain
+• Products: 1.0 | Active Member: Yes
+• Balance: $126,816.18 | Credit Score: 731.0
+
+
+🟢 LOYALTY REINFORCEMENT
+────────────────────────────────────────────────
+
+📋 CUSTOMER VALUE ANALYSIS:
+• This is a LOYAL customer with LOW churn risk ({prob:.1%})
+• Actively engaged customer
+• Focus on maintaining satisfaction and encouraging referrals
+
+🎯 RECOMMENDED RETENTION ACTIONS:
+
+1️⃣ APPRECIATION REWARDS:
+   • $10 coffee voucher or gift card
+   • Birthday bonus: $5 cashback
+   • Anniversary gift: Double points for a month
+
+2️⃣ EXCLUSIVE BENEFITS:
+   • Early access to new banking features
+   • Invitation to customer appreciation events
+   • Priority customer support line
+
+3️⃣ REFERRAL PROGRAM:
+   • Enhanced referral bonus: $75 per successful referral
+   • Referral leaderboard with quarterly prizes
+   • ""Friend & Family"" special offers
+
+📈 EXPECTED IMPACT:
+   • 10-15% increase in loyalty metrics
+   • Higher referral rate (estimated 2-3 referrals/year)
+   • Maintain customer satisfaction >90%
+
+💌 NEXT STEPS:
+   • Send appreciation email this month
+   • Invite to next customer event
+   • Monitor for any changes in behavior
+
+------------------------------------------------------------
+Strategy Generated: 2026-03-10 20:28:34
+============================================================"
+CUST_1016,Low Risk,0.8%,No,No,26.0,2.0,"$105,249.76",True,638.0,"
+============================================================
+🎯 RETENTION STRATEGY FOR CUST_1016
+============================================================
+
+📊 CUSTOMER SUMMARY:
+────────────────────────────────────────────────
+• Risk Level: Low Risk
+• Churn Probability: 0.8%
+• Age: 26.0 | Gender: Female | Location: Germany
+• Products: 2.0 | Active Member: Yes
+• Balance: $105,249.76 | Credit Score: 638.0
+
+
+🟢 LOYALTY REINFORCEMENT
+────────────────────────────────────────────────
+
+📋 CUSTOMER VALUE ANALYSIS:
+• This is a LOYAL customer with LOW churn risk ({prob:.1%})
+• Actively engaged customer
+• Focus on maintaining satisfaction and encouraging referrals
+
+🎯 RECOMMENDED RETENTION ACTIONS:
+
+1️⃣ APPRECIATION REWARDS:
+   • $10 coffee voucher or gift card
+   • Birthday bonus: $5 cashback
+   • Anniversary gift: Double points for a month
+
+2️⃣ EXCLUSIVE BENEFITS:
+   • Early access to new banking features
+   • Invitation to customer appreciation events
+   • Priority customer support line
+
+3️⃣ REFERRAL PROGRAM:
+   • Enhanced referral bonus: $75 per successful referral
+   • Referral leaderboard with quarterly prizes
+   • ""Friend & Family"" special offers
+
+📈 EXPECTED IMPACT:
+   • 10-15% increase in loyalty metrics
+   • Higher referral rate (estimated 2-3 referrals/year)
+   • Maintain customer satisfaction >90%
+
+💌 NEXT STEPS:
+   • Send appreciation email this month
+   • Invite to next customer event
+   • Monitor for any changes in behavior
+
+------------------------------------------------------------
+Strategy Generated: 2026-03-10 20:28:34
+============================================================"
+CUST_1017,Low Risk,6.7%,No,No,41.0,2.0,$0.00,False,569.0,"
+============================================================
+🎯 RETENTION STRATEGY FOR CUST_1017
+============================================================
+
+📊 CUSTOMER SUMMARY:
+────────────────────────────────────────────────
+• Risk Level: Low Risk
+• Churn Probability: 6.7%
+• Age: 41.0 | Gender: Male | Location: Spain
+• Products: 2.0 | Active Member: No
+• Balance: $0.00 | Credit Score: 569.0
+
+
+🟢 LOYALTY REINFORCEMENT
+────────────────────────────────────────────────
+
+📋 CUSTOMER VALUE ANALYSIS:
+• This is a LOYAL customer with LOW churn risk ({prob:.1%})
+• Stable customer with good engagement
+• Focus on maintaining satisfaction and encouraging referrals
+
+🎯 RECOMMENDED RETENTION ACTIONS:
+
+1️⃣ APPRECIATION REWARDS:
+   • $10 coffee voucher or gift card
+   • Birthday bonus: $5 cashback
+   • Anniversary gift: Double points for a month
+
+2️⃣ EXCLUSIVE BENEFITS:
+   • Early access to new banking features
+   • Invitation to customer appreciation events
+   • Priority customer support line
+
+3️⃣ REFERRAL PROGRAM:
+   • Enhanced referral bonus: $75 per successful referral
+   • Referral leaderboard with quarterly prizes
+   • ""Friend & Family"" special offers
+
+📈 EXPECTED IMPACT:
+   • 10-15% increase in loyalty metrics
+   • Higher referral rate (estimated 2-3 referrals/year)
+   • Maintain customer satisfaction >90%
+
+💌 NEXT STEPS:
+   • Send appreciation email this month
+   • Invite to next customer event
+   • Monitor for any changes in behavior
+
+------------------------------------------------------------
+Strategy Generated: 2026-03-10 20:28:34
+============================================================"
+CUST_1018,Low Risk,10.5%,No,No,50.0,1.0,"$109,387.90",False,459.0,"
+============================================================
+🎯 RETENTION STRATEGY FOR CUST_1018
+============================================================
+
+📊 CUSTOMER SUMMARY:
+────────────────────────────────────────────────
+• Risk Level: Low Risk
+• Churn Probability: 10.5%
+• Age: 50.0 | Gender: Male | Location: Germany
+• Products: 1.0 | Active Member: No
+• Balance: $109,387.90 | Credit Score: 459.0
+
+
+🟢 LOYALTY REINFORCEMENT
+────────────────────────────────────────────────
+
+📋 CUSTOMER VALUE ANALYSIS:
+• This is a LOYAL customer with LOW churn risk ({prob:.1%})
+• High-value loyal customer
+• Focus on maintaining satisfaction and encouraging referrals
+
+🎯 RECOMMENDED RETENTION ACTIONS:
+
+1️⃣ APPRECIATION REWARDS:
+   • $10 coffee voucher or gift card
+   • Birthday bonus: $5 cashback
+   • Anniversary gift: Double points for a month
+
+2️⃣ EXCLUSIVE BENEFITS:
+   • Early access to new banking features
+   • Invitation to customer appreciation events
+   • Priority customer support line
+
+3️⃣ REFERRAL PROGRAM:
+   • Enhanced referral bonus: $75 per successful referral
+   • Referral leaderboard with quarterly prizes
+   • ""Friend & Family"" special offers
+
+📈 EXPECTED IMPACT:
+   • 10-15% increase in loyalty metrics
+   • Higher referral rate (estimated 2-3 referrals/year)
+   • Maintain customer satisfaction >90%
+
+💌 NEXT STEPS:
+   • Send appreciation email this month
+   • Invite to next customer event
+   • Monitor for any changes in behavior
+
+------------------------------------------------------------
+Strategy Generated: 2026-03-10 20:28:34
+============================================================"
+CUST_1019,Medium Risk,68.5%,Yes,Yes,23.0,1.0,"$122,478.51",False,632.0,"
+============================================================
+🎯 RETENTION STRATEGY FOR CUST_1019
+============================================================
+
+📊 CUSTOMER SUMMARY:
+────────────────────────────────────────────────
+• Risk Level: Medium Risk
+• Churn Probability: 68.5%
+• Age: 23.0 | Gender: Male | Location: Germany
+• Products: 1.0 | Active Member: No
+• Balance: $122,478.51 | Credit Score: 632.0
+
+
+🟠 PROACTIVE RETENTION CAMPAIGN
+────────────────────────────────────────────────
+
+📋 RISK ANALYSIS:
+• Customer shows MODERATE risk of churn ({prob:.1%})
+• Customer is currently INACTIVE - needs re-engagement
+• Proactive engagement recommended within 1 week
+
+🎯 RECOMMENDED RETENTION ACTIONS:
+
+1️⃣ LOYALTY REWARDS:
+   • Double loyalty points for 3 months
+   • Birthday bonus: $10 cashback
+   • Anniversary gift: Free coffee voucher
+
+2️⃣ VALUE-ADDED SERVICES:
+   • Free credit score monitoring for 6 months
+   • Financial planning webinar invitation
+   • Pre-approved credit line increase of $5,000
+
+3️⃣ ENGAGEMENT CAMPAIGN:
+   • Personalized email with offers
+   • App push notifications
+   • Monthly newsletter with tips
+
+📈 EXPECTED IMPACT:
+   • 25-35% reduction in churn probability
+   • Estimated value saved: ${estimated_value:,.0f}
+   • ROI: $3-5 per $1 spent
+
+📧 NEXT STEPS:
+   • Send email campaign within 1 week
+   • Track open rates and engagement
+   • Follow up with non-responders
+
+------------------------------------------------------------
+Strategy Generated: 2026-03-10 20:28:34
+============================================================"
+CUST_1020,Medium Risk,31.6%,No,No,73.0,2.0,"$137,732.23",True,683.0,"
+============================================================
+🎯 RETENTION STRATEGY FOR CUST_1020
+============================================================
+
+📊 CUSTOMER SUMMARY:
+────────────────────────────────────────────────
+• Risk Level: Medium Risk
+• Churn Probability: 31.6%
+• Age: 73.0 | Gender: Female | Location: France
+• Products: 2.0 | Active Member: Yes
+• Balance: $137,732.23 | Credit Score: 683.0
+
+
+🟠 PROACTIVE RETENTION CAMPAIGN
+────────────────────────────────────────────────
+
+📋 RISK ANALYSIS:
+• Customer shows MODERATE risk of churn ({prob:.1%})
+• Customer is ACTIVE but showing early warning signs
+• Proactive engagement recommended within 1 week
+
+🎯 RECOMMENDED RETENTION ACTIONS:
+
+1️⃣ LOYALTY REWARDS:
+   • Double loyalty points for 3 months
+   • Birthday bonus: $10 cashback
+   • Anniversary gift: Free coffee voucher
+
+2️⃣ VALUE-ADDED SERVICES:
+   • Free credit score monitoring for 6 months
+   • Financial planning webinar invitation
+   • Pre-approved credit line increase of $5,000
+
+3️⃣ ENGAGEMENT CAMPAIGN:
+   • Personalized email with offers
+   • App push notifications
+   • Monthly newsletter with tips
+
+📈 EXPECTED IMPACT:
+   • 25-35% reduction in churn probability
+   • Estimated value saved: ${estimated_value:,.0f}
+   • ROI: $3-5 per $1 spent
+
+📧 NEXT STEPS:
+   • Send email campaign within 1 week
+   • Track open rates and engagement
+   • Follow up with non-responders
+
+------------------------------------------------------------
+Strategy Generated: 2026-03-10 20:28:34
+============================================================"
+CUST_1021,Medium Risk,65.6%,Yes,Yes,46.0,1.0,"$157,866.77",True,850.0,"
+============================================================
+🎯 RETENTION STRATEGY FOR CUST_1021
+============================================================
+
+📊 CUSTOMER SUMMARY:
+────────────────────────────────────────────────
+• Risk Level: Medium Risk
+• Churn Probability: 65.6%
+• Age: 46.0 | Gender: Female | Location: France
+• Products: 1.0 | Active Member: Yes
+• Balance: $157,866.77 | Credit Score: 850.0
+
+
+🟠 PROACTIVE RETENTION CAMPAIGN
+────────────────────────────────────────────────
+
+📋 RISK ANALYSIS:
+• Customer shows MODERATE risk of churn ({prob:.1%})
+• Customer is ACTIVE but showing early warning signs
+• Proactive engagement recommended within 1 week
+
+🎯 RECOMMENDED RETENTION ACTIONS:
+
+1️⃣ LOYALTY REWARDS:
+   • Double loyalty points for 3 months
+   • Birthday bonus: $10 cashback
+   • Anniversary gift: Free coffee voucher
+
+2️⃣ VALUE-ADDED SERVICES:
+   • Free credit score monitoring for 6 months
+   • Financial planning webinar invitation
+   • Pre-approved credit line increase of $5,000
+
+3️⃣ ENGAGEMENT CAMPAIGN:
+   • Personalized email with offers
+   • App push notifications
+   • Monthly newsletter with tips
+
+📈 EXPECTED IMPACT:
+   • 25-35% reduction in churn probability
+   • Estimated value saved: ${estimated_value:,.0f}
+   • ROI: $3-5 per $1 spent
+
+📧 NEXT STEPS:
+   • Send email campaign within 1 week
+   • Track open rates and engagement
+   • Follow up with non-responders
+
+------------------------------------------------------------
+Strategy Generated: 2026-03-10 20:28:34
+============================================================"
+CUST_1022,Low Risk,1.2%,No,No,41.0,1.0,$0.00,True,512.0,"
+============================================================
+🎯 RETENTION STRATEGY FOR CUST_1022
+============================================================
+
+📊 CUSTOMER SUMMARY:
+────────────────────────────────────────────────
+• Risk Level: Low Risk
+• Churn Probability: 1.2%
+• Age: 41.0 | Gender: Female | Location: France
+• Products: 1.0 | Active Member: Yes
+• Balance: $0.00 | Credit Score: 512.0
+
+
+🟢 LOYALTY REINFORCEMENT
+────────────────────────────────────────────────
+
+📋 CUSTOMER VALUE ANALYSIS:
+• This is a LOYAL customer with LOW churn risk ({prob:.1%})
+• Actively engaged customer
+• Focus on maintaining satisfaction and encouraging referrals
+
+🎯 RECOMMENDED RETENTION ACTIONS:
+
+1️⃣ APPRECIATION REWARDS:
+   • $10 coffee voucher or gift card
+   • Birthday bonus: $5 cashback
+   • Anniversary gift: Double points for a month
+
+2️⃣ EXCLUSIVE BENEFITS:
+   • Early access to new banking features
+   • Invitation to customer appreciation events
+   • Priority customer support line
+
+3️⃣ REFERRAL PROGRAM:
+   • Enhanced referral bonus: $75 per successful referral
+   • Referral leaderboard with quarterly prizes
+   • ""Friend & Family"" special offers
+
+📈 EXPECTED IMPACT:
+   • 10-15% increase in loyalty metrics
+   • Higher referral rate (estimated 2-3 referrals/year)
+   • Maintain customer satisfaction >90%
+
+💌 NEXT STEPS:
+   • Send appreciation email this month
+   • Invite to next customer event
+   • Monitor for any changes in behavior
+
+------------------------------------------------------------
+Strategy Generated: 2026-03-10 20:28:34
+============================================================"
+CUST_1023,Low Risk,3.8%,No,No,31.0,1.0,"$136,789.14",False,616.0,"
+============================================================
+🎯 RETENTION STRATEGY FOR CUST_1023
+============================================================
+
+📊 CUSTOMER SUMMARY:
+────────────────────────────────────────────────
+• Risk Level: Low Risk
+• Churn Probability: 3.8%
+• Age: 31.0 | Gender: Female | Location: France
+• Products: 1.0 | Active Member: No
+• Balance: $136,789.14 | Credit Score: 616.0
+
+
+🟢 LOYALTY REINFORCEMENT
+────────────────────────────────────────────────
+
+📋 CUSTOMER VALUE ANALYSIS:
+• This is a LOYAL customer with LOW churn risk ({prob:.1%})
+• High-value loyal customer
+• Focus on maintaining satisfaction and encouraging referrals
+
+🎯 RECOMMENDED RETENTION ACTIONS:
+
+1️⃣ APPRECIATION REWARDS:
+   • $10 coffee voucher or gift card
+   • Birthday bonus: $5 cashback
+   • Anniversary gift: Double points for a month
+
+2️⃣ EXCLUSIVE BENEFITS:
+   • Early access to new banking features
+   • Invitation to customer appreciation events
+   • Priority customer support line
+
+3️⃣ REFERRAL PROGRAM:
+   • Enhanced referral bonus: $75 per successful referral
+   • Referral leaderboard with quarterly prizes
+   • ""Friend & Family"" special offers
+
+📈 EXPECTED IMPACT:
+   • 10-15% increase in loyalty metrics
+   • Higher referral rate (estimated 2-3 referrals/year)
+   • Maintain customer satisfaction >90%
+
+💌 NEXT STEPS:
+   • Send appreciation email this month
+   • Invite to next customer event
+   • Monitor for any changes in behavior
+
+------------------------------------------------------------
+Strategy Generated: 2026-03-10 20:28:34
+============================================================"
+CUST_1024,Medium Risk,68.3%,Yes,Yes,36.0,2.0,$0.00,True,664.0,"
+============================================================
+🎯 RETENTION STRATEGY FOR CUST_1024
+============================================================
+
+📊 CUSTOMER SUMMARY:
+────────────────────────────────────────────────
+• Risk Level: Medium Risk
+• Churn Probability: 68.3%
+• Age: 36.0 | Gender: Male | Location: France
+• Products: 2.0 | Active Member: Yes
+• Balance: $0.00 | Credit Score: 664.0
+
+
+🟠 PROACTIVE RETENTION CAMPAIGN
+────────────────────────────────────────────────
+
+📋 RISK ANALYSIS:
+• Customer shows MODERATE risk of churn ({prob:.1%})
+• Customer is ACTIVE but showing early warning signs
+• Proactive engagement recommended within 1 week
+
+🎯 RECOMMENDED RETENTION ACTIONS:
+
+1️⃣ LOYALTY REWARDS:
+   • Double loyalty points for 3 months
+   • Birthday bonus: $10 cashback
+   • Anniversary gift: Free coffee voucher
+
+2️⃣ VALUE-ADDED SERVICES:
+   • Free credit score monitoring for 6 months
+   • Financial planning webinar invitation
+   • Pre-approved credit line increase of $5,000
+
+3️⃣ ENGAGEMENT CAMPAIGN:
+   • Personalized email with offers
+   • App push notifications
+   • Monthly newsletter with tips
+
+📈 EXPECTED IMPACT:
+   • 25-35% reduction in churn probability
+   • Estimated value saved: ${estimated_value:,.0f}
+   • ROI: $3-5 per $1 spent
+
+📧 NEXT STEPS:
+   • Send email campaign within 1 week
+   • Track open rates and engagement
+   • Follow up with non-responders
+
+------------------------------------------------------------
+Strategy Generated: 2026-03-10 20:28:34
+============================================================"
+CUST_1025,Low Risk,9.4%,No,No,30.0,1.0,"$144,684.03",True,694.0,"
+============================================================
+🎯 RETENTION STRATEGY FOR CUST_1025
+============================================================
+
+📊 CUSTOMER SUMMARY:
+────────────────────────────────────────────────
+• Risk Level: Low Risk
+• Churn Probability: 9.4%
+• Age: 30.0 | Gender: Male | Location: France
+• Products: 1.0 | Active Member: Yes
+• Balance: $144,684.03 | Credit Score: 694.0
+
+
+🟢 LOYALTY REINFORCEMENT
+────────────────────────────────────────────────
+
+📋 CUSTOMER VALUE ANALYSIS:
+• This is a LOYAL customer with LOW churn risk ({prob:.1%})
+• Actively engaged customer
+• Focus on maintaining satisfaction and encouraging referrals
+
+🎯 RECOMMENDED RETENTION ACTIONS:
+
+1️⃣ APPRECIATION REWARDS:
+   • $10 coffee voucher or gift card
+   • Birthday bonus: $5 cashback
+   • Anniversary gift: Double points for a month
+
+2️⃣ EXCLUSIVE BENEFITS:
+   • Early access to new banking features
+   • Invitation to customer appreciation events
+   • Priority customer support line
+
+3️⃣ REFERRAL PROGRAM:
+   • Enhanced referral bonus: $75 per successful referral
+   • Referral leaderboard with quarterly prizes
+   • ""Friend & Family"" special offers
+
+📈 EXPECTED IMPACT:
+   • 10-15% increase in loyalty metrics
+   • Higher referral rate (estimated 2-3 referrals/year)
+   • Maintain customer satisfaction >90%
+
+💌 NEXT STEPS:
+   • Send appreciation email this month
+   • Invite to next customer event
+   • Monitor for any changes in behavior
+
+------------------------------------------------------------
+Strategy Generated: 2026-03-10 20:28:34
+============================================================"
+CUST_1026,Medium Risk,63.9%,Yes,No,24.0,1.0,"$107,065.31",True,655.0,"
+============================================================
+🎯 RETENTION STRATEGY FOR CUST_1026
+============================================================
+
+📊 CUSTOMER SUMMARY:
+────────────────────────────────────────────────
+• Risk Level: Medium Risk
+• Churn Probability: 63.9%
+• Age: 24.0 | Gender: Male | Location: France
+• Products: 1.0 | Active Member: Yes
+• Balance: $107,065.31 | Credit Score: 655.0
+
+
+🟠 PROACTIVE RETENTION CAMPAIGN
+────────────────────────────────────────────────
+
+📋 RISK ANALYSIS:
+• Customer shows MODERATE risk of churn ({prob:.1%})
+• Customer is ACTIVE but showing early warning signs
+• Proactive engagement recommended within 1 week
+
+🎯 RECOMMENDED RETENTION ACTIONS:
+
+1️⃣ LOYALTY REWARDS:
+   • Double loyalty points for 3 months
+   • Birthday bonus: $10 cashback
+   • Anniversary gift: Free coffee voucher
+
+2️⃣ VALUE-ADDED SERVICES:
+   • Free credit score monitoring for 6 months
+   • Financial planning webinar invitation
+   • Pre-approved credit line increase of $5,000
+
+3️⃣ ENGAGEMENT CAMPAIGN:
+   • Personalized email with offers
+   • App push notifications
+   • Monthly newsletter with tips
+
+📈 EXPECTED IMPACT:
+   • 25-35% reduction in churn probability
+   • Estimated value saved: ${estimated_value:,.0f}
+   • ROI: $3-5 per $1 spent
+
+📧 NEXT STEPS:
+   • Send email campaign within 1 week
+   • Track open rates and engagement
+   • Follow up with non-responders
+
+------------------------------------------------------------
+Strategy Generated: 2026-03-10 20:28:34
+============================================================"
+CUST_1027,Low Risk,4.9%,No,No,33.0,1.0,"$91,301.72",True,607.0,"
+============================================================
+🎯 RETENTION STRATEGY FOR CUST_1027
+============================================================
+
+📊 CUSTOMER SUMMARY:
+────────────────────────────────────────────────
+• Risk Level: Low Risk
+• Churn Probability: 4.9%
+• Age: 33.0 | Gender: Female | Location: France
+• Products: 1.0 | Active Member: Yes
+• Balance: $91,301.72 | Credit Score: 607.0
+
+
+🟢 LOYALTY REINFORCEMENT
+────────────────────────────────────────────────
+
+📋 CUSTOMER VALUE ANALYSIS:
+• This is a LOYAL customer with LOW churn risk ({prob:.1%})
+• Actively engaged customer
+• Focus on maintaining satisfaction and encouraging referrals
+
+🎯 RECOMMENDED RETENTION ACTIONS:
+
+1️⃣ APPRECIATION REWARDS:
+   • $10 coffee voucher or gift card
+   • Birthday bonus: $5 cashback
+   • Anniversary gift: Double points for a month
+
+2️⃣ EXCLUSIVE BENEFITS:
+   • Early access to new banking features
+   • Invitation to customer appreciation events
+   • Priority customer support line
+
+3️⃣ REFERRAL PROGRAM:
+   • Enhanced referral bonus: $75 per successful referral
+   • Referral leaderboard with quarterly prizes
+   • ""Friend & Family"" special offers
+
+📈 EXPECTED IMPACT:
+   • 10-15% increase in loyalty metrics
+   • Higher referral rate (estimated 2-3 referrals/year)
+   • Maintain customer satisfaction >90%
+
+💌 NEXT STEPS:
+   • Send appreciation email this month
+   • Invite to next customer event
+   • Monitor for any changes in behavior
+
+------------------------------------------------------------
+Strategy Generated: 2026-03-10 20:28:34
+============================================================"
+CUST_1028,Low Risk,7.8%,No,No,39.0,2.0,"$207,034.96",False,684.0,"
+============================================================
+🎯 RETENTION STRATEGY FOR CUST_1028
+============================================================
+
+📊 CUSTOMER SUMMARY:
+────────────────────────────────────────────────
+• Risk Level: Low Risk
+• Churn Probability: 7.8%
+• Age: 39.0 | Gender: Male | Location: Spain
+• Products: 2.0 | Active Member: No
+• Balance: $207,034.96 | Credit Score: 684.0
+
+
+🟢 LOYALTY REINFORCEMENT
+────────────────────────────────────────────────
+
+📋 CUSTOMER VALUE ANALYSIS:
+• This is a LOYAL customer with LOW churn risk ({prob:.1%})
+• High-value loyal customer
+• Focus on maintaining satisfaction and encouraging referrals
+
+🎯 RECOMMENDED RETENTION ACTIONS:
+
+1️⃣ APPRECIATION REWARDS:
+   • $10 coffee voucher or gift card
+   • Birthday bonus: $5 cashback
+   • Anniversary gift: Double points for a month
+
+2️⃣ EXCLUSIVE BENEFITS:
+   • Early access to new banking features
+   • Invitation to customer appreciation events
+   • Priority customer support line
+
+3️⃣ REFERRAL PROGRAM:
+   • Enhanced referral bonus: $75 per successful referral
+   • Referral leaderboard with quarterly prizes
+   • ""Friend & Family"" special offers
+
+📈 EXPECTED IMPACT:
+   • 10-15% increase in loyalty metrics
+   • Higher referral rate (estimated 2-3 referrals/year)
+   • Maintain customer satisfaction >90%
+
+💌 NEXT STEPS:
+   • Send appreciation email this month
+   • Invite to next customer event
+   • Monitor for any changes in behavior
+
+------------------------------------------------------------
+Strategy Generated: 2026-03-10 20:28:34
+============================================================"
+CUST_1029,Low Risk,9.6%,No,No,37.0,2.0,$0.00,True,763.0,"
+============================================================
+🎯 RETENTION STRATEGY FOR CUST_1029
+============================================================
+
+📊 CUSTOMER SUMMARY:
+────────────────────────────────────────────────
+• Risk Level: Low Risk
+• Churn Probability: 9.6%
+• Age: 37.0 | Gender: Male | Location: Spain
+• Products: 2.0 | Active Member: Yes
+• Balance: $0.00 | Credit Score: 763.0
+
+
+🟢 LOYALTY REINFORCEMENT
+────────────────────────────────────────────────
+
+📋 CUSTOMER VALUE ANALYSIS:
+• This is a LOYAL customer with LOW churn risk ({prob:.1%})
+• Actively engaged customer
+• Focus on maintaining satisfaction and encouraging referrals
+
+🎯 RECOMMENDED RETENTION ACTIONS:
+
+1️⃣ APPRECIATION REWARDS:
+   • $10 coffee voucher or gift card
+   • Birthday bonus: $5 cashback
+   • Anniversary gift: Double points for a month
+
+2️⃣ EXCLUSIVE BENEFITS:
+   • Early access to new banking features
+   • Invitation to customer appreciation events
+   • Priority customer support line
+
+3️⃣ REFERRAL PROGRAM:
+   • Enhanced referral bonus: $75 per successful referral
+   • Referral leaderboard with quarterly prizes
+   • ""Friend & Family"" special offers
+
+📈 EXPECTED IMPACT:
+   • 10-15% increase in loyalty metrics
+   • Higher referral rate (estimated 2-3 referrals/year)
+   • Maintain customer satisfaction >90%
+
+💌 NEXT STEPS:
+   • Send appreciation email this month
+   • Invite to next customer event
+   • Monitor for any changes in behavior
+
+------------------------------------------------------------
+Strategy Generated: 2026-03-10 20:28:34
+============================================================"
+CUST_1030,Medium Risk,34.8%,No,No,50.0,1.0,$0.00,True,671.0,"
+============================================================
+🎯 RETENTION STRATEGY FOR CUST_1030
+============================================================
+
+📊 CUSTOMER SUMMARY:
+────────────────────────────────────────────────
+• Risk Level: Medium Risk
+• Churn Probability: 34.8%
+• Age: 50.0 | Gender: Male | Location: Spain
+• Products: 1.0 | Active Member: Yes
+• Balance: $0.00 | Credit Score: 671.0
+
+
+🟠 PROACTIVE RETENTION CAMPAIGN
+────────────────────────────────────────────────
+
+📋 RISK ANALYSIS:
+• Customer shows MODERATE risk of churn ({prob:.1%})
+• Customer is ACTIVE but showing early warning signs
+• Proactive engagement recommended within 1 week
+
+🎯 RECOMMENDED RETENTION ACTIONS:
+
+1️⃣ LOYALTY REWARDS:
+   • Double loyalty points for 3 months
+   • Birthday bonus: $10 cashback
+   • Anniversary gift: Free coffee voucher
+
+2️⃣ VALUE-ADDED SERVICES:
+   • Free credit score monitoring for 6 months
+   • Financial planning webinar invitation
+   • Pre-approved credit line increase of $5,000
+
+3️⃣ ENGAGEMENT CAMPAIGN:
+   • Personalized email with offers
+   • App push notifications
+   • Monthly newsletter with tips
+
+📈 EXPECTED IMPACT:
+   • 25-35% reduction in churn probability
+   • Estimated value saved: ${estimated_value:,.0f}
+   • ROI: $3-5 per $1 spent
+
+📧 NEXT STEPS:
+   • Send email campaign within 1 week
+   • Track open rates and engagement
+   • Follow up with non-responders
+
+------------------------------------------------------------
+Strategy Generated: 2026-03-10 20:28:34
+============================================================"
+CUST_1031,Low Risk,9.0%,No,No,38.0,1.0,$0.00,True,592.0,"
+============================================================
+🎯 RETENTION STRATEGY FOR CUST_1031
+============================================================
+
+📊 CUSTOMER SUMMARY:
+────────────────────────────────────────────────
+• Risk Level: Low Risk
+• Churn Probability: 9.0%
+• Age: 38.0 | Gender: Male | Location: Spain
+• Products: 1.0 | Active Member: Yes
+• Balance: $0.00 | Credit Score: 592.0
+
+
+🟢 LOYALTY REINFORCEMENT
+────────────────────────────────────────────────
+
+📋 CUSTOMER VALUE ANALYSIS:
+• This is a LOYAL customer with LOW churn risk ({prob:.1%})
+• Actively engaged customer
+• Focus on maintaining satisfaction and encouraging referrals
+
+🎯 RECOMMENDED RETENTION ACTIONS:
+
+1️⃣ APPRECIATION REWARDS:
+   • $10 coffee voucher or gift card
+   • Birthday bonus: $5 cashback
+   • Anniversary gift: Double points for a month
+
+2️⃣ EXCLUSIVE BENEFITS:
+   • Early access to new banking features
+   • Invitation to customer appreciation events
+   • Priority customer support line
+
+3️⃣ REFERRAL PROGRAM:
+   • Enhanced referral bonus: $75 per successful referral
+   • Referral leaderboard with quarterly prizes
+   • ""Friend & Family"" special offers
+
+📈 EXPECTED IMPACT:
+   • 10-15% increase in loyalty metrics
+   • Higher referral rate (estimated 2-3 referrals/year)
+   • Maintain customer satisfaction >90%
+
+💌 NEXT STEPS:
+   • Send appreciation email this month
+   • Invite to next customer event
+   • Monitor for any changes in behavior
+
+------------------------------------------------------------
+Strategy Generated: 2026-03-10 20:28:34
+============================================================"
+CUST_1032,Medium Risk,48.3%,Yes,Yes,36.0,2.0,$0.00,False,666.0,"
+============================================================
+🎯 RETENTION STRATEGY FOR CUST_1032
+============================================================
+
+📊 CUSTOMER SUMMARY:
+────────────────────────────────────────────────
+• Risk Level: Medium Risk
+• Churn Probability: 48.3%
+• Age: 36.0 | Gender: Female | Location: Spain
+• Products: 2.0 | Active Member: No
+• Balance: $0.00 | Credit Score: 666.0
+
+
+🟠 PROACTIVE RETENTION CAMPAIGN
+────────────────────────────────────────────────
+
+📋 RISK ANALYSIS:
+• Customer shows MODERATE risk of churn ({prob:.1%})
+• Customer is currently INACTIVE - needs re-engagement
+• Proactive engagement recommended within 1 week
+
+🎯 RECOMMENDED RETENTION ACTIONS:
+
+1️⃣ LOYALTY REWARDS:
+   • Double loyalty points for 3 months
+   • Birthday bonus: $10 cashback
+   • Anniversary gift: Free coffee voucher
+
+2️⃣ VALUE-ADDED SERVICES:
+   • Free credit score monitoring for 6 months
+   • Financial planning webinar invitation
+   • Pre-approved credit line increase of $5,000
+
+3️⃣ ENGAGEMENT CAMPAIGN:
+   • Personalized email with offers
+   • App push notifications
+   • Monthly newsletter with tips
+
+📈 EXPECTED IMPACT:
+   • 25-35% reduction in churn probability
+   • Estimated value saved: ${estimated_value:,.0f}
+   • ROI: $3-5 per $1 spent
+
+📧 NEXT STEPS:
+   • Send email campaign within 1 week
+   • Track open rates and engagement
+   • Follow up with non-responders
+
+------------------------------------------------------------
+Strategy Generated: 2026-03-10 20:28:34
+============================================================"
+CUST_1033,Medium Risk,52.0%,Yes,No,34.0,2.0,$0.00,True,667.0,"
+============================================================
+🎯 RETENTION STRATEGY FOR CUST_1033
+============================================================
+
+📊 CUSTOMER SUMMARY:
+────────────────────────────────────────────────
+• Risk Level: Medium Risk
+• Churn Probability: 52.0%
+• Age: 34.0 | Gender: Male | Location: France
+• Products: 2.0 | Active Member: Yes
+• Balance: $0.00 | Credit Score: 667.0
+
+
+🟠 PROACTIVE RETENTION CAMPAIGN
+────────────────────────────────────────────────
+
+📋 RISK ANALYSIS:
+• Customer shows MODERATE risk of churn ({prob:.1%})
+• Customer is ACTIVE but showing early warning signs
+• Proactive engagement recommended within 1 week
+
+🎯 RECOMMENDED RETENTION ACTIONS:
+
+1️⃣ LOYALTY REWARDS:
+   • Double loyalty points for 3 months
+   • Birthday bonus: $10 cashback
+   • Anniversary gift: Free coffee voucher
+
+2️⃣ VALUE-ADDED SERVICES:
+   • Free credit score monitoring for 6 months
+   • Financial planning webinar invitation
+   • Pre-approved credit line increase of $5,000
+
+3️⃣ ENGAGEMENT CAMPAIGN:
+   • Personalized email with offers
+   • App push notifications
+   • Monthly newsletter with tips
+
+📈 EXPECTED IMPACT:
+   • 25-35% reduction in churn probability
+   • Estimated value saved: ${estimated_value:,.0f}
+   • ROI: $3-5 per $1 spent
+
+📧 NEXT STEPS:
+   • Send email campaign within 1 week
+   • Track open rates and engagement
+   • Follow up with non-responders
+
+------------------------------------------------------------
+Strategy Generated: 2026-03-10 20:28:34
+============================================================"
+CUST_1034,Low Risk,2.1%,No,No,36.0,2.0,$0.00,True,850.0,"
+============================================================
+🎯 RETENTION STRATEGY FOR CUST_1034
+============================================================
+
+📊 CUSTOMER SUMMARY:
+────────────────────────────────────────────────
+• Risk Level: Low Risk
+• Churn Probability: 2.1%
+• Age: 36.0 | Gender: Male | Location: Spain
+• Products: 2.0 | Active Member: Yes
+• Balance: $0.00 | Credit Score: 850.0
+
+
+🟢 LOYALTY REINFORCEMENT
+────────────────────────────────────────────────
+
+📋 CUSTOMER VALUE ANALYSIS:
+• This is a LOYAL customer with LOW churn risk ({prob:.1%})
+• Actively engaged customer
+• Focus on maintaining satisfaction and encouraging referrals
+
+🎯 RECOMMENDED RETENTION ACTIONS:
+
+1️⃣ APPRECIATION REWARDS:
+   • $10 coffee voucher or gift card
+   • Birthday bonus: $5 cashback
+   • Anniversary gift: Double points for a month
+
+2️⃣ EXCLUSIVE BENEFITS:
+   • Early access to new banking features
+   • Invitation to customer appreciation events
+   • Priority customer support line
+
+3️⃣ REFERRAL PROGRAM:
+   • Enhanced referral bonus: $75 per successful referral
+   • Referral leaderboard with quarterly prizes
+   • ""Friend & Family"" special offers
+
+📈 EXPECTED IMPACT:
+   • 10-15% increase in loyalty metrics
+   • Higher referral rate (estimated 2-3 referrals/year)
+   • Maintain customer satisfaction >90%
+
+💌 NEXT STEPS:
+   • Send appreciation email this month
+   • Invite to next customer event
+   • Monitor for any changes in behavior
+
+------------------------------------------------------------
+Strategy Generated: 2026-03-10 20:28:34
+============================================================"
+CUST_1035,Medium Risk,43.1%,Yes,No,42.0,2.0,$0.00,False,622.0,"
+============================================================
+🎯 RETENTION STRATEGY FOR CUST_1035
+============================================================
+
+📊 CUSTOMER SUMMARY:
+────────────────────────────────────────────────
+• Risk Level: Medium Risk
+• Churn Probability: 43.1%
+• Age: 42.0 | Gender: Male | Location: Spain
+• Products: 2.0 | Active Member: No
+• Balance: $0.00 | Credit Score: 622.0
+
+
+🟠 PROACTIVE RETENTION CAMPAIGN
+────────────────────────────────────────────────
+
+📋 RISK ANALYSIS:
+• Customer shows MODERATE risk of churn ({prob:.1%})
+• Customer is currently INACTIVE - needs re-engagement
+• Proactive engagement recommended within 1 week
+
+🎯 RECOMMENDED RETENTION ACTIONS:
+
+1️⃣ LOYALTY REWARDS:
+   • Double loyalty points for 3 months
+   • Birthday bonus: $10 cashback
+   • Anniversary gift: Free coffee voucher
+
+2️⃣ VALUE-ADDED SERVICES:
+   • Free credit score monitoring for 6 months
+   • Financial planning webinar invitation
+   • Pre-approved credit line increase of $5,000
+
+3️⃣ ENGAGEMENT CAMPAIGN:
+   • Personalized email with offers
+   • App push notifications
+   • Monthly newsletter with tips
+
+📈 EXPECTED IMPACT:
+   • 25-35% reduction in churn probability
+   • Estimated value saved: ${estimated_value:,.0f}
+   • ROI: $3-5 per $1 spent
+
+📧 NEXT STEPS:
+   • Send email campaign within 1 week
+   • Track open rates and engagement
+   • Follow up with non-responders
+
+------------------------------------------------------------
+Strategy Generated: 2026-03-10 20:28:34
+============================================================"
+CUST_1036,Low Risk,5.7%,No,Yes,30.0,2.0,"$92,472.10",True,577.0,"
+============================================================
+🎯 RETENTION STRATEGY FOR CUST_1036
+============================================================
+
+📊 CUSTOMER SUMMARY:
+────────────────────────────────────────────────
+• Risk Level: Low Risk
+• Churn Probability: 5.7%
+• Age: 30.0 | Gender: Female | Location: France
+• Products: 2.0 | Active Member: Yes
+• Balance: $92,472.10 | Credit Score: 577.0
+
+
+🟢 LOYALTY REINFORCEMENT
+────────────────────────────────────────────────
+
+📋 CUSTOMER VALUE ANALYSIS:
+• This is a LOYAL customer with LOW churn risk ({prob:.1%})
+• Actively engaged customer
+• Focus on maintaining satisfaction and encouraging referrals
+
+🎯 RECOMMENDED RETENTION ACTIONS:
+
+1️⃣ APPRECIATION REWARDS:
+   • $10 coffee voucher or gift card
+   • Birthday bonus: $5 cashback
+   • Anniversary gift: Double points for a month
+
+2️⃣ EXCLUSIVE BENEFITS:
+   • Early access to new banking features
+   • Invitation to customer appreciation events
+   • Priority customer support line
+
+3️⃣ REFERRAL PROGRAM:
+   • Enhanced referral bonus: $75 per successful referral
+   • Referral leaderboard with quarterly prizes
+   • ""Friend & Family"" special offers
+
+📈 EXPECTED IMPACT:
+   • 10-15% increase in loyalty metrics
+   • Higher referral rate (estimated 2-3 referrals/year)
+   • Maintain customer satisfaction >90%
+
+💌 NEXT STEPS:
+   • Send appreciation email this month
+   • Invite to next customer event
+   • Monitor for any changes in behavior
+
+------------------------------------------------------------
+Strategy Generated: 2026-03-10 20:28:34
+============================================================"
+CUST_1037,Low Risk,3.6%,No,No,21.0,2.0,$0.00,False,555.0,"
+============================================================
+🎯 RETENTION STRATEGY FOR CUST_1037
+============================================================
+
+📊 CUSTOMER SUMMARY:
+────────────────────────────────────────────────
+• Risk Level: Low Risk
+• Churn Probability: 3.6%
+• Age: 21.0 | Gender: Male | Location: Spain
+• Products: 2.0 | Active Member: No
+• Balance: $0.00 | Credit Score: 555.0
+
+
+🟢 LOYALTY REINFORCEMENT
+────────────────────────────────────────────────
+
+📋 CUSTOMER VALUE ANALYSIS:
+• This is a LOYAL customer with LOW churn risk ({prob:.1%})
+• Stable customer with good engagement
+• Focus on maintaining satisfaction and encouraging referrals
+
+🎯 RECOMMENDED RETENTION ACTIONS:
+
+1️⃣ APPRECIATION REWARDS:
+   • $10 coffee voucher or gift card
+   • Birthday bonus: $5 cashback
+   • Anniversary gift: Double points for a month
+
+2️⃣ EXCLUSIVE BENEFITS:
+   • Early access to new banking features
+   • Invitation to customer appreciation events
+   • Priority customer support line
+
+3️⃣ REFERRAL PROGRAM:
+   • Enhanced referral bonus: $75 per successful referral
+   • Referral leaderboard with quarterly prizes
+   • ""Friend & Family"" special offers
+
+📈 EXPECTED IMPACT:
+   • 10-15% increase in loyalty metrics
+   • Higher referral rate (estimated 2-3 referrals/year)
+   • Maintain customer satisfaction >90%
+
+💌 NEXT STEPS:
+   • Send appreciation email this month
+   • Invite to next customer event
+   • Monitor for any changes in behavior
+
+------------------------------------------------------------
+Strategy Generated: 2026-03-10 20:28:34
+============================================================"
+CUST_1038,Low Risk,3.4%,No,No,62.0,2.0,"$127,738.75",True,547.0,"
+============================================================
+🎯 RETENTION STRATEGY FOR CUST_1038
+============================================================
+
+📊 CUSTOMER SUMMARY:
+────────────────────────────────────────────────
+• Risk Level: Low Risk
+• Churn Probability: 3.4%
+• Age: 62.0 | Gender: Male | Location: France
+• Products: 2.0 | Active Member: Yes
+• Balance: $127,738.75 | Credit Score: 547.0
+
+
+🟢 LOYALTY REINFORCEMENT
+────────────────────────────────────────────────
+
+📋 CUSTOMER VALUE ANALYSIS:
+• This is a LOYAL customer with LOW churn risk ({prob:.1%})
+• Actively engaged customer
+• Focus on maintaining satisfaction and encouraging referrals
+
+🎯 RECOMMENDED RETENTION ACTIONS:
+
+1️⃣ APPRECIATION REWARDS:
+   • $10 coffee voucher or gift card
+   • Birthday bonus: $5 cashback
+   • Anniversary gift: Double points for a month
+
+2️⃣ EXCLUSIVE BENEFITS:
+   • Early access to new banking features
+   • Invitation to customer appreciation events
+   • Priority customer support line
+
+3️⃣ REFERRAL PROGRAM:
+   • Enhanced referral bonus: $75 per successful referral
+   • Referral leaderboard with quarterly prizes
+   • ""Friend & Family"" special offers
+
+📈 EXPECTED IMPACT:
+   • 10-15% increase in loyalty metrics
+   • Higher referral rate (estimated 2-3 referrals/year)
+   • Maintain customer satisfaction >90%
+
+💌 NEXT STEPS:
+   • Send appreciation email this month
+   • Invite to next customer event
+   • Monitor for any changes in behavior
+
+------------------------------------------------------------
+Strategy Generated: 2026-03-10 20:28:34
+============================================================"
+CUST_1039,Low Risk,23.7%,No,No,50.0,2.0,"$101,242.98",False,613.0,"
+============================================================
+🎯 RETENTION STRATEGY FOR CUST_1039
+============================================================
+
+📊 CUSTOMER SUMMARY:
+────────────────────────────────────────────────
+• Risk Level: Low Risk
+• Churn Probability: 23.7%
+• Age: 50.0 | Gender: Female | Location: Germany
+• Products: 2.0 | Active Member: No
+• Balance: $101,242.98 | Credit Score: 613.0
+
+
+🟢 LOYALTY REINFORCEMENT
+────────────────────────────────────────────────
+
+📋 CUSTOMER VALUE ANALYSIS:
+• This is a LOYAL customer with LOW churn risk ({prob:.1%})
+• High-value loyal customer
+• Focus on maintaining satisfaction and encouraging referrals
+
+🎯 RECOMMENDED RETENTION ACTIONS:
+
+1️⃣ APPRECIATION REWARDS:
+   • $10 coffee voucher or gift card
+   • Birthday bonus: $5 cashback
+   • Anniversary gift: Double points for a month
+
+2️⃣ EXCLUSIVE BENEFITS:
+   • Early access to new banking features
+   • Invitation to customer appreciation events
+   • Priority customer support line
+
+3️⃣ REFERRAL PROGRAM:
+   • Enhanced referral bonus: $75 per successful referral
+   • Referral leaderboard with quarterly prizes
+   • ""Friend & Family"" special offers
+
+📈 EXPECTED IMPACT:
+   • 10-15% increase in loyalty metrics
+   • Higher referral rate (estimated 2-3 referrals/year)
+   • Maintain customer satisfaction >90%
+
+💌 NEXT STEPS:
+   • Send appreciation email this month
+   • Invite to next customer event
+   • Monitor for any changes in behavior
+
+------------------------------------------------------------
+Strategy Generated: 2026-03-10 20:28:34
+============================================================"
+CUST_1040,Medium Risk,46.9%,Yes,Yes,43.0,2.0,"$92,599.55",True,672.0,"
+============================================================
+🎯 RETENTION STRATEGY FOR CUST_1040
+============================================================
+
+📊 CUSTOMER SUMMARY:
+────────────────────────────────────────────────
+• Risk Level: Medium Risk
+• Churn Probability: 46.9%
+• Age: 43.0 | Gender: Female | Location: France
+• Products: 2.0 | Active Member: Yes
+• Balance: $92,599.55 | Credit Score: 672.0
+
+
+🟠 PROACTIVE RETENTION CAMPAIGN
+────────────────────────────────────────────────
+
+📋 RISK ANALYSIS:
+• Customer shows MODERATE risk of churn ({prob:.1%})
+• Customer is ACTIVE but showing early warning signs
+• Proactive engagement recommended within 1 week
+
+🎯 RECOMMENDED RETENTION ACTIONS:
+
+1️⃣ LOYALTY REWARDS:
+   • Double loyalty points for 3 months
+   • Birthday bonus: $10 cashback
+   • Anniversary gift: Free coffee voucher
+
+2️⃣ VALUE-ADDED SERVICES:
+   • Free credit score monitoring for 6 months
+   • Financial planning webinar invitation
+   • Pre-approved credit line increase of $5,000
+
+3️⃣ ENGAGEMENT CAMPAIGN:
+   • Personalized email with offers
+   • App push notifications
+   • Monthly newsletter with tips
+
+📈 EXPECTED IMPACT:
+   • 25-35% reduction in churn probability
+   • Estimated value saved: ${estimated_value:,.0f}
+   • ROI: $3-5 per $1 spent
+
+📧 NEXT STEPS:
+   • Send email campaign within 1 week
+   • Track open rates and engagement
+   • Follow up with non-responders
+
+------------------------------------------------------------
+Strategy Generated: 2026-03-10 20:28:34
+============================================================"
+CUST_1041,Low Risk,4.8%,No,No,36.0,2.0,$0.00,True,624.0,"
+============================================================
+🎯 RETENTION STRATEGY FOR CUST_1041
+============================================================
+
+📊 CUSTOMER SUMMARY:
+────────────────────────────────────────────────
+• Risk Level: Low Risk
+• Churn Probability: 4.8%
+• Age: 36.0 | Gender: Female | Location: Spain
+• Products: 2.0 | Active Member: Yes
+• Balance: $0.00 | Credit Score: 624.0
+
+
+🟢 LOYALTY REINFORCEMENT
+────────────────────────────────────────────────
+
+📋 CUSTOMER VALUE ANALYSIS:
+• This is a LOYAL customer with LOW churn risk ({prob:.1%})
+• Actively engaged customer
+• Focus on maintaining satisfaction and encouraging referrals
+
+🎯 RECOMMENDED RETENTION ACTIONS:
+
+1️⃣ APPRECIATION REWARDS:
+   • $10 coffee voucher or gift card
+   • Birthday bonus: $5 cashback
+   • Anniversary gift: Double points for a month
+
+2️⃣ EXCLUSIVE BENEFITS:
+   • Early access to new banking features
+   • Invitation to customer appreciation events
+   • Priority customer support line
+
+3️⃣ REFERRAL PROGRAM:
+   • Enhanced referral bonus: $75 per successful referral
+   • Referral leaderboard with quarterly prizes
+   • ""Friend & Family"" special offers
+
+📈 EXPECTED IMPACT:
+   • 10-15% increase in loyalty metrics
+   • Higher referral rate (estimated 2-3 referrals/year)
+   • Maintain customer satisfaction >90%
+
+💌 NEXT STEPS:
+   • Send appreciation email this month
+   • Invite to next customer event
+   • Monitor for any changes in behavior
+
+------------------------------------------------------------
+Strategy Generated: 2026-03-10 20:28:34
+============================================================"
+CUST_1042,Low Risk,2.9%,No,No,50.0,4.0,$0.00,False,698.0,"
+============================================================
+🎯 RETENTION STRATEGY FOR CUST_1042
+============================================================
+
+📊 CUSTOMER SUMMARY:
+────────────────────────────────────────────────
+• Risk Level: Low Risk
+• Churn Probability: 2.9%
+• Age: 50.0 | Gender: Female | Location: Spain
+• Products: 4.0 | Active Member: No
+• Balance: $0.00 | Credit Score: 698.0
+
+
+🟢 LOYALTY REINFORCEMENT
+────────────────────────────────────────────────
+
+📋 CUSTOMER VALUE ANALYSIS:
+• This is a LOYAL customer with LOW churn risk ({prob:.1%})
+• High product adoption - loyal customer
+• Focus on maintaining satisfaction and encouraging referrals
+
+🎯 RECOMMENDED RETENTION ACTIONS:
+
+1️⃣ APPRECIATION REWARDS:
+   • $10 coffee voucher or gift card
+   • Birthday bonus: $5 cashback
+   • Anniversary gift: Double points for a month
+
+2️⃣ EXCLUSIVE BENEFITS:
+   • Early access to new banking features
+   • Invitation to customer appreciation events
+   • Priority customer support line
+
+3️⃣ REFERRAL PROGRAM:
+   • Enhanced referral bonus: $75 per successful referral
+   • Referral leaderboard with quarterly prizes
+   • ""Friend & Family"" special offers
+
+📈 EXPECTED IMPACT:
+   • 10-15% increase in loyalty metrics
+   • Higher referral rate (estimated 2-3 referrals/year)
+   • Maintain customer satisfaction >90%
+
+💌 NEXT STEPS:
+   • Send appreciation email this month
+   • Invite to next customer event
+   • Monitor for any changes in behavior
+
+------------------------------------------------------------
+Strategy Generated: 2026-03-10 20:28:34
+============================================================"
+CUST_1043,Low Risk,26.8%,No,No,37.0,1.0,"$82,373.94",False,606.0,"
+============================================================
+🎯 RETENTION STRATEGY FOR CUST_1043
+============================================================
+
+📊 CUSTOMER SUMMARY:
+────────────────────────────────────────────────
+• Risk Level: Low Risk
+• Churn Probability: 26.8%
+• Age: 37.0 | Gender: Male | Location: France
+• Products: 1.0 | Active Member: No
+• Balance: $82,373.94 | Credit Score: 606.0
+
+
+🟢 LOYALTY REINFORCEMENT
+────────────────────────────────────────────────
+
+📋 CUSTOMER VALUE ANALYSIS:
+• This is a LOYAL customer with LOW churn risk ({prob:.1%})
+• Stable customer with good engagement
+• Focus on maintaining satisfaction and encouraging referrals
+
+🎯 RECOMMENDED RETENTION ACTIONS:
+
+1️⃣ APPRECIATION REWARDS:
+   • $10 coffee voucher or gift card
+   • Birthday bonus: $5 cashback
+   • Anniversary gift: Double points for a month
+
+2️⃣ EXCLUSIVE BENEFITS:
+   • Early access to new banking features
+   • Invitation to customer appreciation events
+   • Priority customer support line
+
+3️⃣ REFERRAL PROGRAM:
+   • Enhanced referral bonus: $75 per successful referral
+   • Referral leaderboard with quarterly prizes
+   • ""Friend & Family"" special offers
+
+📈 EXPECTED IMPACT:
+   • 10-15% increase in loyalty metrics
+   • Higher referral rate (estimated 2-3 referrals/year)
+   • Maintain customer satisfaction >90%
+
+💌 NEXT STEPS:
+   • Send appreciation email this month
+   • Invite to next customer event
+   • Monitor for any changes in behavior
+
+------------------------------------------------------------
+Strategy Generated: 2026-03-10 20:28:34
+============================================================"
+CUST_1044,Low Risk,10.8%,No,Yes,31.0,1.0,"$141,356.47",False,720.0,"
+============================================================
+🎯 RETENTION STRATEGY FOR CUST_1044
+============================================================
+
+📊 CUSTOMER SUMMARY:
+────────────────────────────────────────────────
+• Risk Level: Low Risk
+• Churn Probability: 10.8%
+• Age: 31.0 | Gender: Male | Location: Spain
+• Products: 1.0 | Active Member: No
+• Balance: $141,356.47 | Credit Score: 720.0
+
+
+🟢 LOYALTY REINFORCEMENT
+────────────────────────────────────────────────
+
+📋 CUSTOMER VALUE ANALYSIS:
+• This is a LOYAL customer with LOW churn risk ({prob:.1%})
+• High-value loyal customer
+• Focus on maintaining satisfaction and encouraging referrals
+
+🎯 RECOMMENDED RETENTION ACTIONS:
+
+1️⃣ APPRECIATION REWARDS:
+   • $10 coffee voucher or gift card
+   • Birthday bonus: $5 cashback
+   • Anniversary gift: Double points for a month
+
+2️⃣ EXCLUSIVE BENEFITS:
+   • Early access to new banking features
+   • Invitation to customer appreciation events
+   • Priority customer support line
+
+3️⃣ REFERRAL PROGRAM:
+   • Enhanced referral bonus: $75 per successful referral
+   • Referral leaderboard with quarterly prizes
+   • ""Friend & Family"" special offers
+
+📈 EXPECTED IMPACT:
+   • 10-15% increase in loyalty metrics
+   • Higher referral rate (estimated 2-3 referrals/year)
+   • Maintain customer satisfaction >90%
+
+💌 NEXT STEPS:
+   • Send appreciation email this month
+   • Invite to next customer event
+   • Monitor for any changes in behavior
+
+------------------------------------------------------------
+Strategy Generated: 2026-03-10 20:28:34
+============================================================"
+CUST_1045,Low Risk,2.3%,No,No,23.0,1.0,$0.00,False,835.0,"
+============================================================
+🎯 RETENTION STRATEGY FOR CUST_1045
+============================================================
+
+📊 CUSTOMER SUMMARY:
+────────────────────────────────────────────────
+• Risk Level: Low Risk
+• Churn Probability: 2.3%
+• Age: 23.0 | Gender: Male | Location: France
+• Products: 1.0 | Active Member: No
+• Balance: $0.00 | Credit Score: 835.0
+
+
+🟢 LOYALTY REINFORCEMENT
+────────────────────────────────────────────────
+
+📋 CUSTOMER VALUE ANALYSIS:
+• This is a LOYAL customer with LOW churn risk ({prob:.1%})
+• Stable customer with good engagement
+• Focus on maintaining satisfaction and encouraging referrals
+
+🎯 RECOMMENDED RETENTION ACTIONS:
+
+1️⃣ APPRECIATION REWARDS:
+   • $10 coffee voucher or gift card
+   • Birthday bonus: $5 cashback
+   • Anniversary gift: Double points for a month
+
+2️⃣ EXCLUSIVE BENEFITS:
+   • Early access to new banking features
+   • Invitation to customer appreciation events
+   • Priority customer support line
+
+3️⃣ REFERRAL PROGRAM:
+   • Enhanced referral bonus: $75 per successful referral
+   • Referral leaderboard with quarterly prizes
+   • ""Friend & Family"" special offers
+
+📈 EXPECTED IMPACT:
+   • 10-15% increase in loyalty metrics
+   • Higher referral rate (estimated 2-3 referrals/year)
+   • Maintain customer satisfaction >90%
+
+💌 NEXT STEPS:
+   • Send appreciation email this month
+   • Invite to next customer event
+   • Monitor for any changes in behavior
+
+------------------------------------------------------------
+Strategy Generated: 2026-03-10 20:28:34
+============================================================"
+CUST_1046,Low Risk,6.5%,No,No,47.0,2.0,"$72,664.00",True,771.0,"
+============================================================
+🎯 RETENTION STRATEGY FOR CUST_1046
+============================================================
+
+📊 CUSTOMER SUMMARY:
+────────────────────────────────────────────────
+• Risk Level: Low Risk
+• Churn Probability: 6.5%
+• Age: 47.0 | Gender: Female | Location: Spain
+• Products: 2.0 | Active Member: Yes
+• Balance: $72,664.00 | Credit Score: 771.0
+
+
+🟢 LOYALTY REINFORCEMENT
+────────────────────────────────────────────────
+
+📋 CUSTOMER VALUE ANALYSIS:
+• This is a LOYAL customer with LOW churn risk ({prob:.1%})
+• Actively engaged customer
+• Focus on maintaining satisfaction and encouraging referrals
+
+🎯 RECOMMENDED RETENTION ACTIONS:
+
+1️⃣ APPRECIATION REWARDS:
+   • $10 coffee voucher or gift card
+   • Birthday bonus: $5 cashback
+   • Anniversary gift: Double points for a month
+
+2️⃣ EXCLUSIVE BENEFITS:
+   • Early access to new banking features
+   • Invitation to customer appreciation events
+   • Priority customer support line
+
+3️⃣ REFERRAL PROGRAM:
+   • Enhanced referral bonus: $75 per successful referral
+   • Referral leaderboard with quarterly prizes
+   • ""Friend & Family"" special offers
+
+📈 EXPECTED IMPACT:
+   • 10-15% increase in loyalty metrics
+   • Higher referral rate (estimated 2-3 referrals/year)
+   • Maintain customer satisfaction >90%
+
+💌 NEXT STEPS:
+   • Send appreciation email this month
+   • Invite to next customer event
+   • Monitor for any changes in behavior
+
+------------------------------------------------------------
+Strategy Generated: 2026-03-10 20:28:34
+============================================================"
+CUST_1047,Medium Risk,35.6%,No,No,47.0,2.0,"$123,365.34",False,811.0,"
+============================================================
+🎯 RETENTION STRATEGY FOR CUST_1047
+============================================================
+
+📊 CUSTOMER SUMMARY:
+────────────────────────────────────────────────
+• Risk Level: Medium Risk
+• Churn Probability: 35.6%
+• Age: 47.0 | Gender: Female | Location: France
+• Products: 2.0 | Active Member: No
+• Balance: $123,365.34 | Credit Score: 811.0
+
+
+🟠 PROACTIVE RETENTION CAMPAIGN
+────────────────────────────────────────────────
+
+📋 RISK ANALYSIS:
+• Customer shows MODERATE risk of churn ({prob:.1%})
+• Customer is currently INACTIVE - needs re-engagement
+• Proactive engagement recommended within 1 week
+
+🎯 RECOMMENDED RETENTION ACTIONS:
+
+1️⃣ LOYALTY REWARDS:
+   • Double loyalty points for 3 months
+   • Birthday bonus: $10 cashback
+   • Anniversary gift: Free coffee voucher
+
+2️⃣ VALUE-ADDED SERVICES:
+   • Free credit score monitoring for 6 months
+   • Financial planning webinar invitation
+   • Pre-approved credit line increase of $5,000
+
+3️⃣ ENGAGEMENT CAMPAIGN:
+   • Personalized email with offers
+   • App push notifications
+   • Monthly newsletter with tips
+
+📈 EXPECTED IMPACT:
+   • 25-35% reduction in churn probability
+   • Estimated value saved: ${estimated_value:,.0f}
+   • ROI: $3-5 per $1 spent
+
+📧 NEXT STEPS:
+   • Send email campaign within 1 week
+   • Track open rates and engagement
+   • Follow up with non-responders
+
+------------------------------------------------------------
+Strategy Generated: 2026-03-10 20:28:34
+============================================================"
+CUST_1048,Medium Risk,68.4%,Yes,Yes,33.0,1.0,"$121,898.58",False,734.0,"
+============================================================
+🎯 RETENTION STRATEGY FOR CUST_1048
+============================================================
+
+📊 CUSTOMER SUMMARY:
+────────────────────────────────────────────────
+• Risk Level: Medium Risk
+• Churn Probability: 68.4%
+• Age: 33.0 | Gender: Male | Location: Germany
+• Products: 1.0 | Active Member: No
+• Balance: $121,898.58 | Credit Score: 734.0
+
+
+🟠 PROACTIVE RETENTION CAMPAIGN
+────────────────────────────────────────────────
+
+📋 RISK ANALYSIS:
+• Customer shows MODERATE risk of churn ({prob:.1%})
+• Customer is currently INACTIVE - needs re-engagement
+• Proactive engagement recommended within 1 week
+
+🎯 RECOMMENDED RETENTION ACTIONS:
+
+1️⃣ LOYALTY REWARDS:
+   • Double loyalty points for 3 months
+   • Birthday bonus: $10 cashback
+   • Anniversary gift: Free coffee voucher
+
+2️⃣ VALUE-ADDED SERVICES:
+   • Free credit score monitoring for 6 months
+   • Financial planning webinar invitation
+   • Pre-approved credit line increase of $5,000
+
+3️⃣ ENGAGEMENT CAMPAIGN:
+   • Personalized email with offers
+   • App push notifications
+   • Monthly newsletter with tips
+
+📈 EXPECTED IMPACT:
+   • 25-35% reduction in churn probability
+   • Estimated value saved: ${estimated_value:,.0f}
+   • ROI: $3-5 per $1 spent
+
+📧 NEXT STEPS:
+   • Send email campaign within 1 week
+   • Track open rates and engagement
+   • Follow up with non-responders
+
+------------------------------------------------------------
+Strategy Generated: 2026-03-10 20:28:34
+============================================================"
+CUST_1049,Low Risk,5.9%,No,No,33.0,1.0,$0.00,True,548.0,"
+============================================================
+🎯 RETENTION STRATEGY FOR CUST_1049
+============================================================
+
+📊 CUSTOMER SUMMARY:
+────────────────────────────────────────────────
+• Risk Level: Low Risk
+• Churn Probability: 5.9%
+• Age: 33.0 | Gender: Male | Location: Spain
+• Products: 1.0 | Active Member: Yes
+• Balance: $0.00 | Credit Score: 548.0
+
+
+🟢 LOYALTY REINFORCEMENT
+────────────────────────────────────────────────
+
+📋 CUSTOMER VALUE ANALYSIS:
+• This is a LOYAL customer with LOW churn risk ({prob:.1%})
+• Actively engaged customer
+• Focus on maintaining satisfaction and encouraging referrals
+
+🎯 RECOMMENDED RETENTION ACTIONS:
+
+1️⃣ APPRECIATION REWARDS:
+   • $10 coffee voucher or gift card
+   • Birthday bonus: $5 cashback
+   • Anniversary gift: Double points for a month
+
+2️⃣ EXCLUSIVE BENEFITS:
+   • Early access to new banking features
+   • Invitation to customer appreciation events
+   • Priority customer support line
+
+3️⃣ REFERRAL PROGRAM:
+   • Enhanced referral bonus: $75 per successful referral
+   • Referral leaderboard with quarterly prizes
+   • ""Friend & Family"" special offers
+
+📈 EXPECTED IMPACT:
+   • 10-15% increase in loyalty metrics
+   • Higher referral rate (estimated 2-3 referrals/year)
+   • Maintain customer satisfaction >90%
+
+💌 NEXT STEPS:
+   • Send appreciation email this month
+   • Invite to next customer event
+   • Monitor for any changes in behavior
+
+------------------------------------------------------------
+Strategy Generated: 2026-03-10 20:28:34
+============================================================"
+CUST_1050,High Risk,100.0%,Yes,Yes,31.0,3.0,"$103,696.97",False,652.0,"
+============================================================
+🎯 RETENTION STRATEGY FOR CUST_1050
+============================================================
+
+📊 CUSTOMER SUMMARY:
+────────────────────────────────────────────────
+• Risk Level: High Risk
+• Churn Probability: 100.0%
+• Age: 31.0 | Gender: Female | Location: France
+• Products: 3.0 | Active Member: No
+• Balance: $103,696.97 | Credit Score: 652.0
+
+
+🔴 URGENT INTERVENTION REQUIRED
+────────────────────────────────────────────────
+
+📋 RISK ANALYSIS:
+• This customer is at HIGH RISK of churn with {prob:.1%} probability
+• Customer is INACTIVE - needs re-engagement
+• Immediate action required within 24-48 hours
+
+🎯 RECOMMENDED RETENTION ACTIONS:
+
+1️⃣ IMMEDIATE OUTREACH:
+   • Priority phone call within 24 hours
+   • Personal banker assigned for follow-up
+   • Welcome package with personalized offers
+
+2️⃣ PREMIUM RETENTION OFFER:
+   • Upgrade to Premium Banking - first 6 months FREE
+   • Dedicated relationship manager
+   • Exclusive investment opportunities with reduced fees
+
+4️⃣ RE-ENGAGEMENT CAMPAIGN:
+   • Welcome back bonus: $50 after first transaction
+   • Personalized app notification with offers
+   • Email campaign with success stories
+
+📈 EXPECTED IMPACT:
+   • 40-50% reduction in churn probability
+   • Estimated value saved: ${estimated_value:,.0f}
+   • ROI: $6-8 per $1 spent
+
+📞 NEXT STEPS:
+   • Contact within 24 hours
+   • Document all interactions in CRM
+   • Follow up after 1 week
+
+------------------------------------------------------------
+Strategy Generated: 2026-03-10 20:28:34
+============================================================"
