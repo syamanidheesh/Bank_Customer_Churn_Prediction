@@ -1,0 +1,101 @@
+customer_id,risk_level,churn_prob,predicted,actual,strategy
+1000,Low Risk,1.98%,No,No,"Customer 1000 - Low Risk
+Age: 36.0, Products: 2.0
+💡 Offer: Thank you gift (coffee voucher)
+💡 Offer: Early access to new products
+💡 Offer: Birthday bonus"
+1001,Low Risk,5.13%,No,No,"Customer 1001 - Low Risk
+Age: 32.0, Products: 2.0
+💡 Offer: Thank you gift (coffee voucher)
+💡 Offer: Early access to new products
+💡 Offer: Birthday bonus"
+1002,Low Risk,3.87%,No,No,"Customer 1002 - Low Risk
+Age: 37.0, Products: 2.0
+💡 Offer: Thank you gift (coffee voucher)
+💡 Offer: Early access to new products
+💡 Offer: Birthday bonus"
+1003,Low Risk,6.83%,No,No,"Customer 1003 - Low Risk
+Age: 57.0, Products: 2.0
+💡 Offer: Thank you gift (coffee voucher)
+💡 Offer: Early access to new products
+💡 Offer: Birthday bonus"
+1004,Low Risk,16.65%,No,No,"Customer 1004 - Low Risk
+Age: 45.0, Products: 2.0
+💡 Offer: Thank you gift (coffee voucher)
+💡 Offer: Early access to new products
+💡 Offer: Birthday bonus"
+1005,Medium Risk,38.24%,No,No,"Customer 1005 - Medium Risk
+Age: 36.0, Products: 1.0
+💡 Offer: Re-engagement bonus (cashback)
+💡 Offer: Free credit score monitoring
+💡 Offer: Welcome back kit with benefits"
+1006,Low Risk,2.52%,No,No,"Customer 1006 - Low Risk
+Age: 41.0, Products: 2.0
+💡 Offer: Thank you gift (coffee voucher)
+💡 Offer: Early access to new products
+💡 Offer: Birthday bonus"
+1007,Medium Risk,36.29%,No,No,"Customer 1007 - Medium Risk
+Age: 41.0, Products: 1.0
+💡 Offer: Loyalty points multiplier
+💡 Offer: Referral bonus program
+💡 Offer: Exclusive event invitations"
+1008,High Risk,86.56%,Yes,No,"Customer 1008 - High Risk
+Age: 44.0, Products: 1.0
+💡 Offer: Bundle additional products with 20% discount
+💡 Offer: Personal banker consultation
+💡 Offer: Fee waiver for 6 months"
+1009,Low Risk,10.54%,No,No,"Customer 1009 - Low Risk
+Age: 34.0, Products: 1.0
+💡 Offer: Thank you gift (coffee voucher)
+💡 Offer: Early access to new products
+💡 Offer: Birthday bonus"
+1010,Medium Risk,65.34%,Yes,Yes,"Customer 1010 - Medium Risk
+Age: 51.0, Products: 2.0
+💡 Offer: Re-engagement bonus (cashback)
+💡 Offer: Free credit score monitoring
+💡 Offer: Welcome back kit with benefits"
+1011,Low Risk,26.50%,No,No,"Customer 1011 - Low Risk
+Age: 35.0, Products: 2.0
+💡 Offer: Thank you gift (coffee voucher)
+💡 Offer: Early access to new products
+💡 Offer: Birthday bonus"
+1012,Low Risk,1.64%,No,No,"Customer 1012 - Low Risk
+Age: 34.0, Products: 2.0
+💡 Offer: Thank you gift (coffee voucher)
+💡 Offer: Early access to new products
+💡 Offer: Birthday bonus"
+1013,Low Risk,7.04%,No,No,"Customer 1013 - Low Risk
+Age: 32.0, Products: 1.0
+💡 Offer: Thank you gift (coffee voucher)
+💡 Offer: Early access to new products
+💡 Offer: Birthday bonus"
+1014,Low Risk,20.60%,No,No,"Customer 1014 - Low Risk
+Age: 39.0, Products: 1.0
+💡 Offer: Thank you gift (coffee voucher)
+💡 Offer: Early access to new products
+💡 Offer: Birthday bonus"
+1015,Low Risk,0.77%,No,No,"Customer 1015 - Low Risk
+Age: 26.0, Products: 2.0
+💡 Offer: Thank you gift (coffee voucher)
+💡 Offer: Early access to new products
+💡 Offer: Birthday bonus"
+1016,Low Risk,6.74%,No,No,"Customer 1016 - Low Risk
+Age: 41.0, Products: 2.0
+💡 Offer: Thank you gift (coffee voucher)
+💡 Offer: Early access to new products
+💡 Offer: Birthday bonus"
+1017,Low Risk,10.51%,No,No,"Customer 1017 - Low Risk
+Age: 50.0, Products: 1.0
+💡 Offer: Thank you gift (coffee voucher)
+💡 Offer: Early access to new products
+💡 Offer: Birthday bonus"
+1018,Medium Risk,68.46%,Yes,Yes,"Customer 1018 - Medium Risk
+Age: 23.0, Products: 1.0
+💡 Offer: Re-engagement bonus (cashback)
+💡 Offer: Free credit score monitoring
+💡 Offer: Welcome back kit with benefits"
+1019,Medium Risk,31.60%,No,No,"Customer 1019 - Medium Risk
+Age: 73.0, Products: 2.0
+💡 Offer: Loyalty points multiplier
+💡 Offer: Referral bonus program
+💡 Offer: Exclusive event invitations"
