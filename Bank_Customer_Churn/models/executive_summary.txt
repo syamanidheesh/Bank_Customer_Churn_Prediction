@@ -1,0 +1,10 @@
+EXECUTIVE SUMMARY REPORT
+==================================================
+
+Total Customers: 50
+High-Risk: 5
+Medium-Risk: 15
+Low-Risk: 30
+
+Projected Value Saved: $55,000
+ROI: 54.0x
