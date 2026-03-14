@@ -1,12 +1,12 @@
 customer_id,risk_level,churn_probability,predicted_churn,actual_churn,age,gender,geography,products,active,balance,credit_score,tenure,complaints,strategy
-CUST_1000,Low Risk,2.0%,No,No,-0.2799319620189817,Male,France,0.8088303613464911,False,$-1.23,0,0.6847228671904925,0,"
+CUST_1000,Low Risk,4.6%,No,No,-0.2799319620189817,Male,France,0.8088303613464911,False,$-1.23,0,0.6847228671904925,0,"
 ================================================================================
 🎯 RETENTION STRATEGY FOR CUST_1000
 ================================================================================
 
 📊 CUSTOMER PROFILE:
 ────────────────────────────────────────────────
-• Risk Level:      Low Risk (2.0%)
+• Risk Level:      Low Risk (4.6%)
 • Age:             -0.2799319620189817
 • Gender:          Male
 • Location:        France
@@ -48,17 +48,17 @@ CUST_1000,Low Risk,2.0%,No,No,-0.2799319620189817,Male,France,0.8088303613464911
    • Higher referral rate (estimated 2-3 referrals/year)
 
 ────────────────────────────────────────────────
-Strategy Generated: 2026-03-11 21:19:55
+Strategy Generated: 2026-03-13 21:12:38
 ================================================================================
 "
-CUST_1001,Low Risk,4.4%,No,No,-0.5649345958990805,Male,Germany,0.8088303613464911,False,$0.88,0,-0.35097063583918053,0,"
+CUST_1001,Low Risk,11.5%,No,No,-0.5649345958990805,Male,Germany,0.8088303613464911,False,$0.88,0,-0.35097063583918053,0,"
 ================================================================================
 🎯 RETENTION STRATEGY FOR CUST_1001
 ================================================================================
 
 📊 CUSTOMER PROFILE:
 ────────────────────────────────────────────────
-• Risk Level:      Low Risk (4.4%)
+• Risk Level:      Low Risk (11.5%)
 • Age:             -0.5649345958990805
 • Gender:          Male
 • Location:        Germany
@@ -100,17 +100,17 @@ CUST_1001,Low Risk,4.4%,No,No,-0.5649345958990805,Male,Germany,0.808830361346491
    • Higher referral rate (estimated 2-3 referrals/year)
 
 ────────────────────────────────────────────────
-Strategy Generated: 2026-03-11 21:19:55
+Strategy Generated: 2026-03-13 21:12:38
 ================================================================================
 "
-CUST_1002,Low Risk,3.4%,No,No,0.10007154982114991,Female,Spain,0.8088303613464911,True,$-1.23,0,-0.35097063583918053,0,"
+CUST_1002,Low Risk,6.4%,No,No,0.10007154982114991,Female,Spain,0.8088303613464911,True,$-1.23,0,-0.35097063583918053,0,"
 ================================================================================
 🎯 RETENTION STRATEGY FOR CUST_1002
 ================================================================================
 
 📊 CUSTOMER PROFILE:
 ────────────────────────────────────────────────
-• Risk Level:      Low Risk (3.4%)
+• Risk Level:      Low Risk (6.4%)
 • Age:             0.10007154982114991
 • Gender:          Female
 • Location:        Spain
@@ -152,17 +152,17 @@ CUST_1002,Low Risk,3.4%,No,No,0.10007154982114991,Female,Spain,0.808830361346491
    • Higher referral rate (estimated 2-3 referrals/year)
 
 ────────────────────────────────────────────────
-Strategy Generated: 2026-03-11 21:19:55
+Strategy Generated: 2026-03-13 21:12:38
 ================================================================================
 "
-CUST_1003,Low Risk,9.5%,No,No,-0.46993371793904753,Male,Spain,0.8088303613464911,False,$1.01,0,-0.005739468162622887,0,"
+CUST_1003,Low Risk,13.6%,No,No,-0.46993371793904753,Male,Spain,0.8088303613464911,False,$1.01,0,-0.005739468162622887,0,"
 ================================================================================
 🎯 RETENTION STRATEGY FOR CUST_1003
 ================================================================================
 
 📊 CUSTOMER PROFILE:
 ────────────────────────────────────────────────
-• Risk Level:      Low Risk (9.5%)
+• Risk Level:      Low Risk (13.6%)
 • Age:             -0.46993371793904753
 • Gender:          Male
 • Location:        Spain
@@ -204,17 +204,17 @@ CUST_1003,Low Risk,9.5%,No,No,-0.46993371793904753,Male,Spain,0.8088303613464911
    • Higher referral rate (estimated 2-3 referrals/year)
 
 ────────────────────────────────────────────────
-Strategy Generated: 2026-03-11 21:19:55
+Strategy Generated: 2026-03-13 21:12:38
 ================================================================================
 "
-CUST_1004,Low Risk,28.4%,No,No,-0.46993371793904753,Female,Spain,-0.9102564852985486,True,$0.02,0,-0.6962018035157382,0,"
+CUST_1004,Medium Risk,35.9%,No,No,-0.46993371793904753,Female,Spain,-0.9102564852985486,True,$0.02,0,-0.6962018035157382,0,"
 ================================================================================
 🎯 RETENTION STRATEGY FOR CUST_1004
 ================================================================================
 
 📊 CUSTOMER PROFILE:
 ────────────────────────────────────────────────
-• Risk Level:      Low Risk (28.4%)
+• Risk Level:      Medium Risk (35.9%)
 • Age:             -0.46993371793904753
 • Gender:          Female
 • Location:        Spain
@@ -226,47 +226,48 @@ CUST_1004,Low Risk,28.4%,No,No,-0.46993371793904753,Female,Spain,-0.910256485298
 • Tenure:          -0.6962018035157382 years
 • Complaints:      0
 
-🟢 LOYALTY REINFORCEMENT
+🟠 PROACTIVE RETENTION CAMPAIGN
 ────────────────────────────────────────────────
 
-📋 CUSTOMER VALUE ANALYSIS:
-• This is a LOYAL customer with LOW churn risk
-• Focus on maintaining satisfaction
+📋 CUSTOMER INSIGHTS:
+• Customer shows MODERATE risk indicators
+• Proactive engagement recommended within 1 week
 
 🎯 RECOMMENDED ACTIONS:
 ────────────────────────────────────────────────
 
-1️⃣ APPRECIATION REWARDS:
-   • $10 coffee voucher or gift card
-   • Birthday bonus: $5 cashback
-   • Anniversary gift: Double points for a month
+1️⃣ LOYALTY REWARDS:
+   • Double loyalty points for 3 months
+   • Birthday bonus: $10 cashback
+   • Anniversary gift: Free coffee voucher
 
-2️⃣ EXCLUSIVE BENEFITS:
-   • Early access to new banking features
-   • Invitation to customer appreciation events
-   • Priority customer support line
+2️⃣ VALUE-ADDED SERVICES:
+   • Free credit score monitoring for 6 months
+   • Financial planning webinar invitation
+   • Pre-approved credit line increase of $5,000
 
-3️⃣ REFERRAL PROGRAM:
-   • Enhanced referral bonus: $75 per successful referral
-   • Referral leaderboard with quarterly prizes
-   • ""Friend & Family"" special offers
+3️⃣ ENGAGEMENT CAMPAIGN:
+   • Personalized email with relevant offers
+   • App push notifications for new features
+   • Monthly newsletter with financial tips
 
 📈 EXPECTED IMPACT:
-   • 10-15% increase in loyalty metrics
-   • Higher referral rate (estimated 2-3 referrals/year)
+   • 25-35% reduction in churn probability
+   • Estimated value saved: ${customer['balance'] * 0.1:,.0f}
+   • ROI: $3-5 per $1 spent
 
 ────────────────────────────────────────────────
-Strategy Generated: 2026-03-11 21:19:55
+Strategy Generated: 2026-03-13 21:12:38
 ================================================================================
 "
-CUST_1005,Medium Risk,43.2%,No,No,-0.46993371793904753,Male,Spain,-0.9102564852985486,False,$-1.23,0,-1.7318953065454112,0,"
+CUST_1005,Medium Risk,41.3%,No,No,-0.46993371793904753,Male,Spain,-0.9102564852985486,False,$-1.23,0,-1.7318953065454112,0,"
 ================================================================================
 🎯 RETENTION STRATEGY FOR CUST_1005
 ================================================================================
 
 📊 CUSTOMER PROFILE:
 ────────────────────────────────────────────────
-• Risk Level:      Medium Risk (43.2%)
+• Risk Level:      Medium Risk (41.3%)
 • Age:             -0.46993371793904753
 • Gender:          Male
 • Location:        Spain
@@ -309,17 +310,17 @@ CUST_1005,Medium Risk,43.2%,No,No,-0.46993371793904753,Male,Spain,-0.91025648529
    • ROI: $3-5 per $1 spent
 
 ────────────────────────────────────────────────
-Strategy Generated: 2026-03-11 21:19:55
+Strategy Generated: 2026-03-13 21:12:38
 ================================================================================
 "
-CUST_1006,Low Risk,3.4%,No,No,-0.8499372297791791,Male,Germany,0.8088303613464911,True,$0.87,0,1.3751852025436078,0,"
+CUST_1006,Low Risk,6.5%,No,No,-0.8499372297791791,Male,Germany,0.8088303613464911,True,$0.87,0,1.3751852025436078,0,"
 ================================================================================
 🎯 RETENTION STRATEGY FOR CUST_1006
 ================================================================================
 
 📊 CUSTOMER PROFILE:
 ────────────────────────────────────────────────
-• Risk Level:      Low Risk (3.4%)
+• Risk Level:      Low Risk (6.5%)
 • Age:             -0.8499372297791791
 • Gender:          Male
 • Location:        Germany
@@ -361,17 +362,17 @@ CUST_1006,Low Risk,3.4%,No,No,-0.8499372297791791,Male,Germany,0.808830361346491
    • Higher referral rate (estimated 2-3 referrals/year)
 
 ────────────────────────────────────────────────
-Strategy Generated: 2026-03-11 21:19:55
+Strategy Generated: 2026-03-13 21:12:38
 ================================================================================
 "
-CUST_1007,Medium Risk,36.3%,No,No,-0.944938107739212,Female,Germany,-0.9102564852985486,False,$1.75,0,0.33949169951393476,0,"
+CUST_1007,Medium Risk,42.9%,No,No,-0.944938107739212,Female,Germany,-0.9102564852985486,False,$1.75,0,0.33949169951393476,0,"
 ================================================================================
 🎯 RETENTION STRATEGY FOR CUST_1007
 ================================================================================
 
 📊 CUSTOMER PROFILE:
 ────────────────────────────────────────────────
-• Risk Level:      Medium Risk (36.3%)
+• Risk Level:      Medium Risk (42.9%)
 • Age:             -0.944938107739212
 • Gender:          Female
 • Location:        Germany
@@ -414,17 +415,17 @@ CUST_1007,Medium Risk,36.3%,No,No,-0.944938107739212,Female,Germany,-0.910256485
    • ROI: $3-5 per $1 spent
 
 ────────────────────────────────────────────────
-Strategy Generated: 2026-03-11 21:19:55
+Strategy Generated: 2026-03-13 21:12:38
 ================================================================================
 "
-CUST_1008,Medium Risk,66.3%,Yes,No,0.955079451461446,Male,France,-0.9102564852985486,False,$0.06,0,0.6847228671904925,0,"
+CUST_1008,High Risk,77.9%,Yes,No,0.955079451461446,Male,France,-0.9102564852985486,False,$0.06,0,0.6847228671904925,0,"
 ================================================================================
 🎯 RETENTION STRATEGY FOR CUST_1008
 ================================================================================
 
 📊 CUSTOMER PROFILE:
 ────────────────────────────────────────────────
-• Risk Level:      Medium Risk (66.3%)
+• Risk Level:      High Risk (77.9%)
 • Age:             0.955079451461446
 • Gender:          Male
 • Location:        France
@@ -436,48 +437,53 @@ CUST_1008,Medium Risk,66.3%,Yes,No,0.955079451461446,Male,France,-0.910256485298
 • Tenure:          0.6847228671904925 years
 • Complaints:      0
 
-🟠 PROACTIVE RETENTION CAMPAIGN
+🔴 URGENT INTERVENTION REQUIRED
 ────────────────────────────────────────────────
 
-📋 CUSTOMER INSIGHTS:
-• Customer shows MODERATE risk indicators
-• Proactive engagement recommended within 1 week
+⚠️ RISK FACTORS IDENTIFIED:
+• Customer is INACTIVE - needs re-engagement
+• Low product adoption - cross-sell opportunity
 
-🎯 RECOMMENDED ACTIONS:
+🎯 RECOMMENDED ACTIONS (Priority Order):
 ────────────────────────────────────────────────
 
-1️⃣ LOYALTY REWARDS:
-   • Double loyalty points for 3 months
-   • Birthday bonus: $10 cashback
-   • Anniversary gift: Free coffee voucher
+1️⃣ IMMEDIATE OUTREACH (Next 24-48 hours):
+   • Priority phone call from relationship manager
+   • Personal follow-up on recent issues
+   • Welcome back offer with incentives
 
-2️⃣ VALUE-ADDED SERVICES:
-   • Free credit score monitoring for 6 months
-   • Financial planning webinar invitation
-   • Pre-approved credit line increase of $5,000
+2️⃣ PREMIUM RETENTION OFFER:
+   • Cashback offer: $100 on next 10 transactions
+   • Waive monthly fees for 12 months
+   • 0% interest on balance transfers for 6 months
 
-3️⃣ ENGAGEMENT CAMPAIGN:
-   • Personalized email with relevant offers
-   • App push notifications for new features
-   • Monthly newsletter with financial tips
+3️⃣ PRODUCT BUNDLE OFFER:
+   • Bundle 2 additional products at 25% discount
+   • Free credit card annual fee waiver
+   • Personal financial consultation
+
+4️⃣ RE-ENGAGEMENT CAMPAIGN:
+   • Welcome back bonus: $50 after first transaction
+   • Personalized app notification with offers
+   • Email campaign with success stories
 
 📈 EXPECTED IMPACT:
-   • 25-35% reduction in churn probability
-   • Estimated value saved: ${customer['balance'] * 0.1:,.0f}
-   • ROI: $3-5 per $1 spent
+   • 40-50% reduction in churn probability
+   • Estimated value saved: $0
+   • ROI: $6-8 per $1 spent
 
 ────────────────────────────────────────────────
-Strategy Generated: 2026-03-11 21:19:55
+Strategy Generated: 2026-03-13 21:12:38
 ================================================================================
 "
-CUST_1009,Low Risk,7.0%,No,No,0.10007154982114991,Female,France,0.8088303613464911,False,$-1.23,0,-1.7318953065454112,0,"
+CUST_1009,Low Risk,11.0%,No,No,0.10007154982114991,Female,France,0.8088303613464911,False,$-1.23,0,-1.7318953065454112,0,"
 ================================================================================
 🎯 RETENTION STRATEGY FOR CUST_1009
 ================================================================================
 
 📊 CUSTOMER PROFILE:
 ────────────────────────────────────────────────
-• Risk Level:      Low Risk (7.0%)
+• Risk Level:      Low Risk (11.0%)
 • Age:             0.10007154982114991
 • Gender:          Female
 • Location:        France
@@ -519,17 +525,17 @@ CUST_1009,Low Risk,7.0%,No,No,0.10007154982114991,Female,France,0.80883036134649
    • Higher referral rate (estimated 2-3 referrals/year)
 
 ────────────────────────────────────────────────
-Strategy Generated: 2026-03-11 21:19:55
+Strategy Generated: 2026-03-13 21:12:38
 ================================================================================
 "
-CUST_1010,High Risk,84.4%,Yes,Yes,1.4300838412616106,Female,Germany,-0.9102564852985486,True,$0.56,0,-0.6962018035157382,0,"
+CUST_1010,High Risk,88.6%,Yes,Yes,1.4300838412616106,Female,Germany,-0.9102564852985486,True,$0.56,0,-0.6962018035157382,0,"
 ================================================================================
 🎯 RETENTION STRATEGY FOR CUST_1010
 ================================================================================
 
 📊 CUSTOMER PROFILE:
 ────────────────────────────────────────────────
-• Risk Level:      High Risk (84.4%)
+• Risk Level:      High Risk (88.6%)
 • Age:             1.4300838412616106
 • Gender:          Female
 • Location:        Germany
@@ -571,17 +577,17 @@ CUST_1010,High Risk,84.4%,Yes,Yes,1.4300838412616106,Female,Germany,-0.910256485
    • ROI: $6-8 per $1 spent
 
 ────────────────────────────────────────────────
-Strategy Generated: 2026-03-11 21:19:55
+Strategy Generated: 2026-03-13 21:12:38
 ================================================================================
 "
-CUST_1011,Medium Risk,41.3%,No,No,-0.0899302060989159,Female,France,-0.9102564852985486,False,$-1.23,0,0.6847228671904925,0,"
+CUST_1011,Medium Risk,42.8%,No,No,-0.0899302060989159,Female,France,-0.9102564852985486,False,$-1.23,0,0.6847228671904925,0,"
 ================================================================================
 🎯 RETENTION STRATEGY FOR CUST_1011
 ================================================================================
 
 📊 CUSTOMER PROFILE:
 ────────────────────────────────────────────────
-• Risk Level:      Medium Risk (41.3%)
+• Risk Level:      Medium Risk (42.8%)
 • Age:             -0.0899302060989159
 • Gender:          Female
 • Location:        France
@@ -624,17 +630,17 @@ CUST_1011,Medium Risk,41.3%,No,No,-0.0899302060989159,Female,France,-0.910256485
    • ROI: $3-5 per $1 spent
 
 ────────────────────────────────────────────────
-Strategy Generated: 2026-03-11 21:19:55
+Strategy Generated: 2026-03-13 21:12:38
 ================================================================================
 "
-CUST_1012,Low Risk,1.5%,No,No,-0.3749328399790146,Male,France,0.8088303613464911,False,$-1.23,0,1.7204163702201654,0,"
+CUST_1012,Low Risk,2.6%,No,No,-0.3749328399790146,Male,France,0.8088303613464911,False,$-1.23,0,1.7204163702201654,0,"
 ================================================================================
 🎯 RETENTION STRATEGY FOR CUST_1012
 ================================================================================
 
 📊 CUSTOMER PROFILE:
 ────────────────────────────────────────────────
-• Risk Level:      Low Risk (1.5%)
+• Risk Level:      Low Risk (2.6%)
 • Age:             -0.3749328399790146
 • Gender:          Male
 • Location:        France
@@ -676,17 +682,17 @@ CUST_1012,Low Risk,1.5%,No,No,-0.3749328399790146,Male,France,0.8088303613464911
    • Higher referral rate (estimated 2-3 referrals/year)
 
 ────────────────────────────────────────────────
-Strategy Generated: 2026-03-11 21:19:55
+Strategy Generated: 2026-03-13 21:12:38
 ================================================================================
 "
-CUST_1013,Low Risk,17.1%,No,No,-0.7549363518191462,Female,Spain,0.8088303613464911,False,$0.33,0,1.7204163702201654,0,"
+CUST_1013,Low Risk,21.5%,No,No,-0.7549363518191462,Female,Spain,0.8088303613464911,False,$0.33,0,1.7204163702201654,0,"
 ================================================================================
 🎯 RETENTION STRATEGY FOR CUST_1013
 ================================================================================
 
 📊 CUSTOMER PROFILE:
 ────────────────────────────────────────────────
-• Risk Level:      Low Risk (17.1%)
+• Risk Level:      Low Risk (21.5%)
 • Age:             -0.7549363518191462
 • Gender:          Female
 • Location:        Spain
@@ -728,17 +734,17 @@ CUST_1013,Low Risk,17.1%,No,No,-0.7549363518191462,Female,Spain,0.80883036134649
    • Higher referral rate (estimated 2-3 referrals/year)
 
 ────────────────────────────────────────────────
-Strategy Generated: 2026-03-11 21:19:55
+Strategy Generated: 2026-03-13 21:12:38
 ================================================================================
 "
-CUST_1014,Low Risk,17.1%,No,No,-0.0899302060989159,Male,France,-0.9102564852985486,False,$0.21,0,1.7204163702201654,0,"
+CUST_1014,Low Risk,28.1%,No,No,-0.0899302060989159,Male,France,-0.9102564852985486,False,$0.21,0,1.7204163702201654,0,"
 ================================================================================
 🎯 RETENTION STRATEGY FOR CUST_1014
 ================================================================================
 
 📊 CUSTOMER PROFILE:
 ────────────────────────────────────────────────
-• Risk Level:      Low Risk (17.1%)
+• Risk Level:      Low Risk (28.1%)
 • Age:             -0.0899302060989159
 • Gender:          Male
 • Location:        France
@@ -780,17 +786,17 @@ CUST_1014,Low Risk,17.1%,No,No,-0.0899302060989159,Male,France,-0.91025648529854
    • Higher referral rate (estimated 2-3 referrals/year)
 
 ────────────────────────────────────────────────
-Strategy Generated: 2026-03-11 21:19:55
+Strategy Generated: 2026-03-13 21:12:38
 ================================================================================
 "
-CUST_1015,Low Risk,0.4%,No,No,-0.8499372297791791,Male,Spain,0.8088303613464911,True,$-1.23,0,-1.0414329711922958,0,"
+CUST_1015,Low Risk,1.9%,No,No,-0.8499372297791791,Male,Spain,0.8088303613464911,True,$-1.23,0,-1.0414329711922958,0,"
 ================================================================================
 🎯 RETENTION STRATEGY FOR CUST_1015
 ================================================================================
 
 📊 CUSTOMER PROFILE:
 ────────────────────────────────────────────────
-• Risk Level:      Low Risk (0.4%)
+• Risk Level:      Low Risk (1.9%)
 • Age:             -0.8499372297791791
 • Gender:          Male
 • Location:        Spain
@@ -832,17 +838,17 @@ CUST_1015,Low Risk,0.4%,No,No,-0.8499372297791791,Male,Spain,0.8088303613464911,
    • Higher referral rate (estimated 2-3 referrals/year)
 
 ────────────────────────────────────────────────
-Strategy Generated: 2026-03-11 21:19:55
+Strategy Generated: 2026-03-13 21:12:38
 ================================================================================
 "
-CUST_1016,Low Risk,7.3%,No,No,0.2900733057412157,Female,France,0.8088303613464911,False,$-1.23,0,-1.3866641388688534,0,"
+CUST_1016,Low Risk,9.3%,No,No,0.2900733057412157,Female,France,0.8088303613464911,False,$-1.23,0,-1.3866641388688534,0,"
 ================================================================================
 🎯 RETENTION STRATEGY FOR CUST_1016
 ================================================================================
 
 📊 CUSTOMER PROFILE:
 ────────────────────────────────────────────────
-• Risk Level:      Low Risk (7.3%)
+• Risk Level:      Low Risk (9.3%)
 • Age:             0.2900733057412157
 • Gender:          Female
 • Location:        France
@@ -884,17 +890,17 @@ CUST_1016,Low Risk,7.3%,No,No,0.2900733057412157,Female,France,0.808830361346491
    • Higher referral rate (estimated 2-3 referrals/year)
 
 ────────────────────────────────────────────────
-Strategy Generated: 2026-03-11 21:19:55
+Strategy Generated: 2026-03-13 21:12:38
 ================================================================================
 "
-CUST_1017,Low Risk,6.7%,No,No,2.095089986981841,Female,Spain,0.8088303613464911,True,$-1.23,0,1.0299540348670502,0,"
+CUST_1017,Low Risk,16.8%,No,No,2.095089986981841,Female,Spain,0.8088303613464911,True,$-1.23,0,1.0299540348670502,0,"
 ================================================================================
 🎯 RETENTION STRATEGY FOR CUST_1017
 ================================================================================
 
 📊 CUSTOMER PROFILE:
 ────────────────────────────────────────────────
-• Risk Level:      Low Risk (6.7%)
+• Risk Level:      Low Risk (16.8%)
 • Age:             2.095089986981841
 • Gender:          Female
 • Location:        Spain
@@ -936,17 +942,17 @@ CUST_1017,Low Risk,6.7%,No,No,2.095089986981841,Female,Spain,0.8088303613464911,
    • Higher referral rate (estimated 2-3 referrals/year)
 
 ────────────────────────────────────────────────
-Strategy Generated: 2026-03-11 21:19:55
+Strategy Generated: 2026-03-13 21:12:38
 ================================================================================
 "
-CUST_1018,High Risk,84.5%,Yes,Yes,1.810087353101742,Female,Germany,0.8088303613464911,False,$0.68,0,-0.6962018035157382,0,"
+CUST_1018,High Risk,86.1%,Yes,Yes,1.810087353101742,Female,Germany,0.8088303613464911,False,$0.68,0,-0.6962018035157382,0,"
 ================================================================================
 🎯 RETENTION STRATEGY FOR CUST_1018
 ================================================================================
 
 📊 CUSTOMER PROFILE:
 ────────────────────────────────────────────────
-• Risk Level:      High Risk (84.5%)
+• Risk Level:      High Risk (86.1%)
 • Age:             1.810087353101742
 • Gender:          Female
 • Location:        Germany
@@ -994,17 +1000,17 @@ CUST_1018,High Risk,84.5%,Yes,Yes,1.810087353101742,Female,Germany,0.80883036134
    • ROI: $6-8 per $1 spent
 
 ────────────────────────────────────────────────
-Strategy Generated: 2026-03-11 21:19:55
+Strategy Generated: 2026-03-13 21:12:38
 ================================================================================
 "
-CUST_1019,Medium Risk,55.8%,Yes,No,-0.3749328399790146,Female,Germany,-0.9102564852985486,False,$1.02,0,-1.3866641388688534,0,"
+CUST_1019,Medium Risk,56.9%,Yes,No,-0.3749328399790146,Female,Germany,-0.9102564852985486,False,$1.02,0,-1.3866641388688534,0,"
 ================================================================================
 🎯 RETENTION STRATEGY FOR CUST_1019
 ================================================================================
 
 📊 CUSTOMER PROFILE:
 ────────────────────────────────────────────────
-• Risk Level:      Medium Risk (55.8%)
+• Risk Level:      Medium Risk (56.9%)
 • Age:             -0.3749328399790146
 • Gender:          Female
 • Location:        Germany
@@ -1047,17 +1053,17 @@ CUST_1019,Medium Risk,55.8%,Yes,No,-0.3749328399790146,Female,Germany,-0.9102564
    • ROI: $3-5 per $1 spent
 
 ────────────────────────────────────────────────
-Strategy Generated: 2026-03-11 21:19:55
+Strategy Generated: 2026-03-13 21:12:38
 ================================================================================
 "
-CUST_1020,High Risk,90.8%,Yes,Yes,1.2400820853415448,Male,France,-0.9102564852985486,False,$-1.23,0,-1.3866641388688534,0,"
+CUST_1020,High Risk,89.7%,Yes,Yes,1.2400820853415448,Male,France,-0.9102564852985486,False,$-1.23,0,-1.3866641388688534,0,"
 ================================================================================
 🎯 RETENTION STRATEGY FOR CUST_1020
 ================================================================================
 
 📊 CUSTOMER PROFILE:
 ────────────────────────────────────────────────
-• Risk Level:      High Risk (90.8%)
+• Risk Level:      High Risk (89.7%)
 • Age:             1.2400820853415448
 • Gender:          Male
 • Location:        France
@@ -1105,17 +1111,17 @@ CUST_1020,High Risk,90.8%,Yes,Yes,1.2400820853415448,Male,France,-0.910256485298
    • ROI: $6-8 per $1 spent
 
 ────────────────────────────────────────────────
-Strategy Generated: 2026-03-11 21:19:55
+Strategy Generated: 2026-03-13 21:12:38
 ================================================================================
 "
-CUST_1021,Low Risk,0.3%,No,No,-1.2299407416193107,Male,Spain,0.8088303613464911,True,$-1.23,0,1.0299540348670502,0,"
+CUST_1021,Low Risk,1.2%,No,No,-1.2299407416193107,Male,Spain,0.8088303613464911,True,$-1.23,0,1.0299540348670502,0,"
 ================================================================================
 🎯 RETENTION STRATEGY FOR CUST_1021
 ================================================================================
 
 📊 CUSTOMER PROFILE:
 ────────────────────────────────────────────────
-• Risk Level:      Low Risk (0.3%)
+• Risk Level:      Low Risk (1.2%)
 • Age:             -1.2299407416193107
 • Gender:          Male
 • Location:        Spain
@@ -1157,17 +1163,17 @@ CUST_1021,Low Risk,0.3%,No,No,-1.2299407416193107,Male,Spain,0.8088303613464911,
    • Higher referral rate (estimated 2-3 referrals/year)
 
 ────────────────────────────────────────────────
-Strategy Generated: 2026-03-11 21:19:55
+Strategy Generated: 2026-03-13 21:12:38
 ================================================================================
 "
-CUST_1022,Low Risk,5.8%,No,No,-1.2299407416193107,Male,France,-0.9102564852985486,True,$1.29,0,-0.6962018035157382,0,"
+CUST_1022,Low Risk,6.2%,No,No,-1.2299407416193107,Male,France,-0.9102564852985486,True,$1.29,0,-0.6962018035157382,0,"
 ================================================================================
 🎯 RETENTION STRATEGY FOR CUST_1022
 ================================================================================
 
 📊 CUSTOMER PROFILE:
 ────────────────────────────────────────────────
-• Risk Level:      Low Risk (5.8%)
+• Risk Level:      Low Risk (6.2%)
 • Age:             -1.2299407416193107
 • Gender:          Male
 • Location:        France
@@ -1209,17 +1215,17 @@ CUST_1022,Low Risk,5.8%,No,No,-1.2299407416193107,Male,France,-0.910256485298548
    • Higher referral rate (estimated 2-3 referrals/year)
 
 ────────────────────────────────────────────────
-Strategy Generated: 2026-03-11 21:19:55
+Strategy Generated: 2026-03-13 21:12:38
 ================================================================================
 "
-CUST_1023,Medium Risk,52.2%,Yes,Yes,0.4800750616612815,Male,France,-0.9102564852985486,False,$1.25,0,1.0299540348670502,0,"
+CUST_1023,Medium Risk,64.6%,Yes,Yes,0.4800750616612815,Male,France,-0.9102564852985486,False,$1.25,0,1.0299540348670502,0,"
 ================================================================================
 🎯 RETENTION STRATEGY FOR CUST_1023
 ================================================================================
 
 📊 CUSTOMER PROFILE:
 ────────────────────────────────────────────────
-• Risk Level:      Medium Risk (52.2%)
+• Risk Level:      Medium Risk (64.6%)
 • Age:             0.4800750616612815
 • Gender:          Male
 • Location:        France
@@ -1262,17 +1268,17 @@ CUST_1023,Medium Risk,52.2%,Yes,Yes,0.4800750616612815,Male,France,-0.9102564852
    • ROI: $3-5 per $1 spent
 
 ────────────────────────────────────────────────
-Strategy Generated: 2026-03-11 21:19:55
+Strategy Generated: 2026-03-13 21:12:38
 ================================================================================
 "
-CUST_1024,Low Risk,21.6%,No,No,-0.46993371793904753,Female,France,-0.9102564852985486,True,$0.53,0,0.6847228671904925,0,"
+CUST_1024,Low Risk,19.4%,No,No,-0.46993371793904753,Female,France,-0.9102564852985486,True,$0.53,0,0.6847228671904925,0,"
 ================================================================================
 🎯 RETENTION STRATEGY FOR CUST_1024
 ================================================================================
 
 📊 CUSTOMER PROFILE:
 ────────────────────────────────────────────────
-• Risk Level:      Low Risk (21.6%)
+• Risk Level:      Low Risk (19.4%)
 • Age:             -0.46993371793904753
 • Gender:          Female
 • Location:        France
@@ -1314,17 +1320,17 @@ CUST_1024,Low Risk,21.6%,No,No,-0.46993371793904753,Female,France,-0.91025648529
    • Higher referral rate (estimated 2-3 referrals/year)
 
 ────────────────────────────────────────────────
-Strategy Generated: 2026-03-11 21:19:55
+Strategy Generated: 2026-03-13 21:12:38
 ================================================================================
 "
-CUST_1025,Medium Risk,37.6%,No,No,-0.46993371793904753,Male,France,-0.9102564852985486,False,$1.22,0,-0.6962018035157382,0,"
+CUST_1025,Low Risk,25.1%,No,No,-0.46993371793904753,Male,France,-0.9102564852985486,False,$1.22,0,-0.6962018035157382,0,"
 ================================================================================
 🎯 RETENTION STRATEGY FOR CUST_1025
 ================================================================================
 
 📊 CUSTOMER PROFILE:
 ────────────────────────────────────────────────
-• Risk Level:      Medium Risk (37.6%)
+• Risk Level:      Low Risk (25.1%)
 • Age:             -0.46993371793904753
 • Gender:          Male
 • Location:        France
@@ -1336,48 +1342,47 @@ CUST_1025,Medium Risk,37.6%,No,No,-0.46993371793904753,Male,France,-0.9102564852
 • Tenure:          -0.6962018035157382 years
 • Complaints:      0
 
-🟠 PROACTIVE RETENTION CAMPAIGN
+🟢 LOYALTY REINFORCEMENT
 ────────────────────────────────────────────────
 
-📋 CUSTOMER INSIGHTS:
-• Customer shows MODERATE risk indicators
-• Proactive engagement recommended within 1 week
+📋 CUSTOMER VALUE ANALYSIS:
+• This is a LOYAL customer with LOW churn risk
+• Focus on maintaining satisfaction
 
 🎯 RECOMMENDED ACTIONS:
 ────────────────────────────────────────────────
 
-1️⃣ LOYALTY REWARDS:
-   • Double loyalty points for 3 months
-   • Birthday bonus: $10 cashback
-   • Anniversary gift: Free coffee voucher
+1️⃣ APPRECIATION REWARDS:
+   • $10 coffee voucher or gift card
+   • Birthday bonus: $5 cashback
+   • Anniversary gift: Double points for a month
 
-2️⃣ VALUE-ADDED SERVICES:
-   • Free credit score monitoring for 6 months
-   • Financial planning webinar invitation
-   • Pre-approved credit line increase of $5,000
+2️⃣ EXCLUSIVE BENEFITS:
+   • Early access to new banking features
+   • Invitation to customer appreciation events
+   • Priority customer support line
 
-3️⃣ ENGAGEMENT CAMPAIGN:
-   • Personalized email with relevant offers
-   • App push notifications for new features
-   • Monthly newsletter with financial tips
+3️⃣ REFERRAL PROGRAM:
+   • Enhanced referral bonus: $75 per successful referral
+   • Referral leaderboard with quarterly prizes
+   • ""Friend & Family"" special offers
 
 📈 EXPECTED IMPACT:
-   • 25-35% reduction in churn probability
-   • Estimated value saved: ${customer['balance'] * 0.1:,.0f}
-   • ROI: $3-5 per $1 spent
+   • 10-15% increase in loyalty metrics
+   • Higher referral rate (estimated 2-3 referrals/year)
 
 ────────────────────────────────────────────────
-Strategy Generated: 2026-03-11 21:19:55
+Strategy Generated: 2026-03-13 21:12:38
 ================================================================================
 "
-CUST_1026,Low Risk,4.2%,No,No,0.38507418370124863,Female,France,0.8088303613464911,True,$-1.23,0,-0.35097063583918053,0,"
+CUST_1026,Low Risk,7.3%,No,No,0.38507418370124863,Female,France,0.8088303613464911,True,$-1.23,0,-0.35097063583918053,0,"
 ================================================================================
 🎯 RETENTION STRATEGY FOR CUST_1026
 ================================================================================
 
 📊 CUSTOMER PROFILE:
 ────────────────────────────────────────────────
-• Risk Level:      Low Risk (4.2%)
+• Risk Level:      Low Risk (7.3%)
 • Age:             0.38507418370124863
 • Gender:          Female
 • Location:        France
@@ -1419,17 +1424,17 @@ CUST_1026,Low Risk,4.2%,No,No,0.38507418370124863,Female,France,0.80883036134649
    • Higher referral rate (estimated 2-3 referrals/year)
 
 ────────────────────────────────────────────────
-Strategy Generated: 2026-03-11 21:19:55
+Strategy Generated: 2026-03-13 21:12:38
 ================================================================================
 "
-CUST_1027,Low Risk,10.7%,No,No,-0.3749328399790146,Male,Spain,-0.9102564852985486,True,$0.62,0,-1.3866641388688534,0,"
+CUST_1027,Low Risk,20.2%,No,No,-0.3749328399790146,Male,Spain,-0.9102564852985486,True,$0.62,0,-1.3866641388688534,0,"
 ================================================================================
 🎯 RETENTION STRATEGY FOR CUST_1027
 ================================================================================
 
 📊 CUSTOMER PROFILE:
 ────────────────────────────────────────────────
-• Risk Level:      Low Risk (10.7%)
+• Risk Level:      Low Risk (20.2%)
 • Age:             -0.3749328399790146
 • Gender:          Male
 • Location:        Spain
@@ -1471,17 +1476,17 @@ CUST_1027,Low Risk,10.7%,No,No,-0.3749328399790146,Male,Spain,-0.910256485298548
    • Higher referral rate (estimated 2-3 referrals/year)
 
 ────────────────────────────────────────────────
-Strategy Generated: 2026-03-11 21:19:55
+Strategy Generated: 2026-03-13 21:12:38
 ================================================================================
 "
-CUST_1028,Low Risk,13.6%,No,No,-0.2799319620189817,Male,France,0.8088303613464911,False,$1.32,0,1.0299540348670502,0,"
+CUST_1028,Low Risk,19.6%,No,No,-0.2799319620189817,Male,France,0.8088303613464911,False,$1.32,0,1.0299540348670502,0,"
 ================================================================================
 🎯 RETENTION STRATEGY FOR CUST_1028
 ================================================================================
 
 📊 CUSTOMER PROFILE:
 ────────────────────────────────────────────────
-• Risk Level:      Low Risk (13.6%)
+• Risk Level:      Low Risk (19.6%)
 • Age:             -0.2799319620189817
 • Gender:          Male
 • Location:        France
@@ -1523,17 +1528,17 @@ CUST_1028,Low Risk,13.6%,No,No,-0.2799319620189817,Male,France,0.808830361346491
    • Higher referral rate (estimated 2-3 referrals/year)
 
 ────────────────────────────────────────────────
-Strategy Generated: 2026-03-11 21:19:55
+Strategy Generated: 2026-03-13 21:12:38
 ================================================================================
 "
-CUST_1029,Medium Risk,44.5%,No,No,0.005070671861117005,Male,Germany,-0.9102564852985486,True,$0.24,0,-0.005739468162622887,0,"
+CUST_1029,Medium Risk,36.2%,No,No,0.005070671861117005,Male,Germany,-0.9102564852985486,True,$0.24,0,-0.005739468162622887,0,"
 ================================================================================
 🎯 RETENTION STRATEGY FOR CUST_1029
 ================================================================================
 
 📊 CUSTOMER PROFILE:
 ────────────────────────────────────────────────
-• Risk Level:      Medium Risk (44.5%)
+• Risk Level:      Medium Risk (36.2%)
 • Age:             0.005070671861117005
 • Gender:          Male
 • Location:        Germany
@@ -1576,17 +1581,17 @@ CUST_1029,Medium Risk,44.5%,No,No,0.005070671861117005,Male,Germany,-0.910256485
    • ROI: $3-5 per $1 spent
 
 ────────────────────────────────────────────────
-Strategy Generated: 2026-03-11 21:19:55
+Strategy Generated: 2026-03-13 21:12:38
 ================================================================================
 "
-CUST_1030,Low Risk,10.1%,No,No,-0.8499372297791791,Female,France,-0.9102564852985486,True,$0.83,0,0.33949169951393476,2,"
+CUST_1030,Low Risk,12.0%,No,No,-0.8499372297791791,Female,France,-0.9102564852985486,True,$0.83,0,0.33949169951393476,2,"
 ================================================================================
 🎯 RETENTION STRATEGY FOR CUST_1030
 ================================================================================
 
 📊 CUSTOMER PROFILE:
 ────────────────────────────────────────────────
-• Risk Level:      Low Risk (10.1%)
+• Risk Level:      Low Risk (12.0%)
 • Age:             -0.8499372297791791
 • Gender:          Female
 • Location:        France
@@ -1628,17 +1633,17 @@ CUST_1030,Low Risk,10.1%,No,No,-0.8499372297791791,Female,France,-0.910256485298
    • Higher referral rate (estimated 2-3 referrals/year)
 
 ────────────────────────────────────────────────
-Strategy Generated: 2026-03-11 21:19:55
+Strategy Generated: 2026-03-13 21:12:38
 ================================================================================
 "
-CUST_1031,Medium Risk,65.4%,Yes,Yes,0.6700768175813473,Male,France,-0.9102564852985486,False,$-1.23,0,-0.35097063583918053,3,"
+CUST_1031,Medium Risk,55.0%,Yes,Yes,0.6700768175813473,Male,France,-0.9102564852985486,False,$-1.23,0,-0.35097063583918053,3,"
 ================================================================================
 🎯 RETENTION STRATEGY FOR CUST_1031
 ================================================================================
 
 📊 CUSTOMER PROFILE:
 ────────────────────────────────────────────────
-• Risk Level:      Medium Risk (65.4%)
+• Risk Level:      Medium Risk (55.0%)
 • Age:             0.6700768175813473
 • Gender:          Male
 • Location:        France
@@ -1681,17 +1686,17 @@ CUST_1031,Medium Risk,65.4%,Yes,Yes,0.6700768175813473,Male,France,-0.9102564852
    • ROI: $3-5 per $1 spent
 
 ────────────────────────────────────────────────
-Strategy Generated: 2026-03-11 21:19:55
+Strategy Generated: 2026-03-13 21:12:38
 ================================================================================
 "
-CUST_1032,Medium Risk,60.4%,Yes,No,0.5750759396213144,Male,France,-0.9102564852985486,False,$-1.23,0,1.0299540348670502,0,"
+CUST_1032,Medium Risk,52.4%,No,No,0.5750759396213144,Male,France,-0.9102564852985486,False,$-1.23,0,1.0299540348670502,0,"
 ================================================================================
 🎯 RETENTION STRATEGY FOR CUST_1032
 ================================================================================
 
 📊 CUSTOMER PROFILE:
 ────────────────────────────────────────────────
-• Risk Level:      Medium Risk (60.4%)
+• Risk Level:      Medium Risk (52.4%)
 • Age:             0.5750759396213144
 • Gender:          Male
 • Location:        France
@@ -1734,17 +1739,17 @@ CUST_1032,Medium Risk,60.4%,Yes,No,0.5750759396213144,Male,France,-0.91025648529
    • ROI: $3-5 per $1 spent
 
 ────────────────────────────────────────────────
-Strategy Generated: 2026-03-11 21:19:55
+Strategy Generated: 2026-03-13 21:12:38
 ================================================================================
 "
-CUST_1033,Low Risk,1.9%,No,No,0.38507418370124863,Male,France,0.8088303613464911,True,$-1.23,0,-0.005739468162622887,0,"
+CUST_1033,Low Risk,4.4%,No,No,0.38507418370124863,Male,France,0.8088303613464911,True,$-1.23,0,-0.005739468162622887,0,"
 ================================================================================
 🎯 RETENTION STRATEGY FOR CUST_1033
 ================================================================================
 
 📊 CUSTOMER PROFILE:
 ────────────────────────────────────────────────
-• Risk Level:      Low Risk (1.9%)
+• Risk Level:      Low Risk (4.4%)
 • Age:             0.38507418370124863
 • Gender:          Male
 • Location:        France
@@ -1786,17 +1791,17 @@ CUST_1033,Low Risk,1.9%,No,No,0.38507418370124863,Male,France,0.8088303613464911
    • Higher referral rate (estimated 2-3 referrals/year)
 
 ────────────────────────────────────────────────
-Strategy Generated: 2026-03-11 21:19:55
+Strategy Generated: 2026-03-13 21:12:38
 ================================================================================
 "
-CUST_1034,Medium Risk,39.4%,No,No,0.38507418370124863,Female,France,-0.9102564852985486,True,$-1.23,0,-1.0414329711922958,0,"
+CUST_1034,Medium Risk,40.6%,No,No,0.38507418370124863,Female,France,-0.9102564852985486,True,$-1.23,0,-1.0414329711922958,0,"
 ================================================================================
 🎯 RETENTION STRATEGY FOR CUST_1034
 ================================================================================
 
 📊 CUSTOMER PROFILE:
 ────────────────────────────────────────────────
-• Risk Level:      Medium Risk (39.4%)
+• Risk Level:      Medium Risk (40.6%)
 • Age:             0.38507418370124863
 • Gender:          Female
 • Location:        France
@@ -1839,17 +1844,17 @@ CUST_1034,Medium Risk,39.4%,No,No,0.38507418370124863,Female,France,-0.910256485
    • ROI: $3-5 per $1 spent
 
 ────────────────────────────────────────────────
-Strategy Generated: 2026-03-11 21:19:55
+Strategy Generated: 2026-03-13 21:12:38
 ================================================================================
 "
-CUST_1035,Low Risk,6.3%,No,Yes,-1.2299407416193107,Female,France,-0.9102564852985486,True,$-0.41,0,-0.005739468162622887,2,"
+CUST_1035,Low Risk,7.1%,No,Yes,-1.2299407416193107,Female,France,-0.9102564852985486,True,$-0.41,0,-0.005739468162622887,2,"
 ================================================================================
 🎯 RETENTION STRATEGY FOR CUST_1035
 ================================================================================
 
 📊 CUSTOMER PROFILE:
 ────────────────────────────────────────────────
-• Risk Level:      Low Risk (6.3%)
+• Risk Level:      Low Risk (7.1%)
 • Age:             -1.2299407416193107
 • Gender:          Female
 • Location:        France
@@ -1891,17 +1896,17 @@ CUST_1035,Low Risk,6.3%,No,Yes,-1.2299407416193107,Female,France,-0.910256485298
    • Higher referral rate (estimated 2-3 referrals/year)
 
 ────────────────────────────────────────────────
-Strategy Generated: 2026-03-11 21:19:55
+Strategy Generated: 2026-03-13 21:12:38
 ================================================================================
 "
-CUST_1036,Low Risk,3.0%,No,No,-0.944938107739212,Female,France,-0.9102564852985486,True,$1.13,0,-1.3866641388688534,0,"
+CUST_1036,Low Risk,8.1%,No,No,-0.944938107739212,Female,France,-0.9102564852985486,True,$1.13,0,-1.3866641388688534,0,"
 ================================================================================
 🎯 RETENTION STRATEGY FOR CUST_1036
 ================================================================================
 
 📊 CUSTOMER PROFILE:
 ────────────────────────────────────────────────
-• Risk Level:      Low Risk (3.0%)
+• Risk Level:      Low Risk (8.1%)
 • Age:             -0.944938107739212
 • Gender:          Female
 • Location:        France
@@ -1943,17 +1948,17 @@ CUST_1036,Low Risk,3.0%,No,No,-0.944938107739212,Female,France,-0.91025648529854
    • Higher referral rate (estimated 2-3 referrals/year)
 
 ────────────────────────────────────────────────
-Strategy Generated: 2026-03-11 21:19:55
+Strategy Generated: 2026-03-13 21:12:38
 ================================================================================
 "
-CUST_1037,Low Risk,3.9%,No,No,0.10007154982114991,Female,France,0.8088303613464911,True,$-1.23,0,0.33949169951393476,0,"
+CUST_1037,Low Risk,5.5%,No,No,0.10007154982114991,Female,France,0.8088303613464911,True,$-1.23,0,0.33949169951393476,0,"
 ================================================================================
 🎯 RETENTION STRATEGY FOR CUST_1037
 ================================================================================
 
 📊 CUSTOMER PROFILE:
 ────────────────────────────────────────────────
-• Risk Level:      Low Risk (3.9%)
+• Risk Level:      Low Risk (5.5%)
 • Age:             0.10007154982114991
 • Gender:          Female
 • Location:        France
@@ -1995,17 +2000,17 @@ CUST_1037,Low Risk,3.9%,No,No,0.10007154982114991,Female,France,0.80883036134649
    • Higher referral rate (estimated 2-3 referrals/year)
 
 ────────────────────────────────────────────────
-Strategy Generated: 2026-03-11 21:19:55
+Strategy Generated: 2026-03-13 21:12:38
 ================================================================================
 "
-CUST_1038,Medium Risk,34.6%,No,No,0.38507418370124863,Male,Spain,-0.9102564852985486,False,$0.64,0,0.33949169951393476,0,"
+CUST_1038,Medium Risk,60.4%,Yes,No,0.38507418370124863,Male,Spain,-0.9102564852985486,False,$0.64,0,0.33949169951393476,0,"
 ================================================================================
 🎯 RETENTION STRATEGY FOR CUST_1038
 ================================================================================
 
 📊 CUSTOMER PROFILE:
 ────────────────────────────────────────────────
-• Risk Level:      Medium Risk (34.6%)
+• Risk Level:      Medium Risk (60.4%)
 • Age:             0.38507418370124863
 • Gender:          Male
 • Location:        Spain
@@ -2048,17 +2053,17 @@ CUST_1038,Medium Risk,34.6%,No,No,0.38507418370124863,Male,Spain,-0.910256485298
    • ROI: $3-5 per $1 spent
 
 ────────────────────────────────────────────────
-Strategy Generated: 2026-03-11 21:19:55
+Strategy Generated: 2026-03-13 21:12:38
 ================================================================================
 "
-CUST_1039,Medium Risk,66.0%,Yes,Yes,1.2400820853415448,Female,Germany,-0.9102564852985486,True,$1.46,0,1.3751852025436078,0,"
+CUST_1039,High Risk,86.8%,Yes,Yes,1.2400820853415448,Female,Germany,-0.9102564852985486,True,$1.46,0,1.3751852025436078,0,"
 ================================================================================
 🎯 RETENTION STRATEGY FOR CUST_1039
 ================================================================================
 
 📊 CUSTOMER PROFILE:
 ────────────────────────────────────────────────
-• Risk Level:      Medium Risk (66.0%)
+• Risk Level:      High Risk (86.8%)
 • Age:             1.2400820853415448
 • Gender:          Female
 • Location:        Germany
@@ -2070,48 +2075,47 @@ CUST_1039,Medium Risk,66.0%,Yes,Yes,1.2400820853415448,Female,Germany,-0.9102564
 • Tenure:          1.3751852025436078 years
 • Complaints:      0
 
-🟠 PROACTIVE RETENTION CAMPAIGN
+🔴 URGENT INTERVENTION REQUIRED
 ────────────────────────────────────────────────
 
-📋 CUSTOMER INSIGHTS:
-• Customer shows MODERATE risk indicators
-• Proactive engagement recommended within 1 week
+⚠️ RISK FACTORS IDENTIFIED:
+• Low product adoption - cross-sell opportunity
 
-🎯 RECOMMENDED ACTIONS:
+🎯 RECOMMENDED ACTIONS (Priority Order):
 ────────────────────────────────────────────────
 
-1️⃣ LOYALTY REWARDS:
-   • Double loyalty points for 3 months
-   • Birthday bonus: $10 cashback
-   • Anniversary gift: Free coffee voucher
+1️⃣ IMMEDIATE OUTREACH (Next 24-48 hours):
+   • Priority phone call from relationship manager
+   • Personal follow-up on recent issues
+   • Welcome back offer with incentives
 
-2️⃣ VALUE-ADDED SERVICES:
-   • Free credit score monitoring for 6 months
-   • Financial planning webinar invitation
-   • Pre-approved credit line increase of $5,000
+2️⃣ PREMIUM RETENTION OFFER:
+   • Cashback offer: $100 on next 10 transactions
+   • Waive monthly fees for 12 months
+   • 0% interest on balance transfers for 6 months
 
-3️⃣ ENGAGEMENT CAMPAIGN:
-   • Personalized email with relevant offers
-   • App push notifications for new features
-   • Monthly newsletter with financial tips
+3️⃣ PRODUCT BUNDLE OFFER:
+   • Bundle 2 additional products at 25% discount
+   • Free credit card annual fee waiver
+   • Personal financial consultation
 
 📈 EXPECTED IMPACT:
-   • 25-35% reduction in churn probability
-   • Estimated value saved: ${customer['balance'] * 0.1:,.0f}
-   • ROI: $3-5 per $1 spent
+   • 40-50% reduction in churn probability
+   • Estimated value saved: $0
+   • ROI: $6-8 per $1 spent
 
 ────────────────────────────────────────────────
-Strategy Generated: 2026-03-11 21:19:55
+Strategy Generated: 2026-03-13 21:12:38
 ================================================================================
 "
-CUST_1040,Low Risk,3.0%,No,No,0.1950724277811828,Female,Spain,0.8088303613464911,True,$-1.23,0,-0.35097063583918053,0,"
+CUST_1040,Low Risk,8.1%,No,No,0.1950724277811828,Female,Spain,0.8088303613464911,True,$-1.23,0,-0.35097063583918053,0,"
 ================================================================================
 🎯 RETENTION STRATEGY FOR CUST_1040
 ================================================================================
 
 📊 CUSTOMER PROFILE:
 ────────────────────────────────────────────────
-• Risk Level:      Low Risk (3.0%)
+• Risk Level:      Low Risk (8.1%)
 • Age:             0.1950724277811828
 • Gender:          Female
 • Location:        Spain
@@ -2153,17 +2157,17 @@ CUST_1040,Low Risk,3.0%,No,No,0.1950724277811828,Female,Spain,0.8088303613464911
    • Higher referral rate (estimated 2-3 referrals/year)
 
 ────────────────────────────────────────────────
-Strategy Generated: 2026-03-11 21:19:55
+Strategy Generated: 2026-03-13 21:12:38
 ================================================================================
 "
-CUST_1041,Low Risk,1.7%,No,No,-0.6599354738591133,Female,France,0.8088303613464911,True,$-1.23,0,-1.3866641388688534,0,"
+CUST_1041,Low Risk,2.4%,No,No,-0.6599354738591133,Female,France,0.8088303613464911,True,$-1.23,0,-1.3866641388688534,0,"
 ================================================================================
 🎯 RETENTION STRATEGY FOR CUST_1041
 ================================================================================
 
 📊 CUSTOMER PROFILE:
 ────────────────────────────────────────────────
-• Risk Level:      Low Risk (1.7%)
+• Risk Level:      Low Risk (2.4%)
 • Age:             -0.6599354738591133
 • Gender:          Female
 • Location:        France
@@ -2205,17 +2209,17 @@ CUST_1041,Low Risk,1.7%,No,No,-0.6599354738591133,Female,France,0.80883036134649
    • Higher referral rate (estimated 2-3 referrals/year)
 
 ────────────────────────────────────────────────
-Strategy Generated: 2026-03-11 21:19:55
+Strategy Generated: 2026-03-13 21:12:38
 ================================================================================
 "
-CUST_1042,Medium Risk,46.6%,No,No,0.4800750616612815,Male,France,-0.9102564852985486,False,$0.84,0,1.3751852025436078,0,"
+CUST_1042,Medium Risk,55.0%,Yes,No,0.4800750616612815,Male,France,-0.9102564852985486,False,$0.84,0,1.3751852025436078,0,"
 ================================================================================
 🎯 RETENTION STRATEGY FOR CUST_1042
 ================================================================================
 
 📊 CUSTOMER PROFILE:
 ────────────────────────────────────────────────
-• Risk Level:      Medium Risk (46.6%)
+• Risk Level:      Medium Risk (55.0%)
 • Age:             0.4800750616612815
 • Gender:          Male
 • Location:        France
@@ -2258,17 +2262,17 @@ CUST_1042,Medium Risk,46.6%,No,No,0.4800750616612815,Male,France,-0.910256485298
    • ROI: $3-5 per $1 spent
 
 ────────────────────────────────────────────────
-Strategy Generated: 2026-03-11 21:19:55
+Strategy Generated: 2026-03-13 21:12:38
 ================================================================================
 "
-CUST_1043,Low Risk,10.1%,No,Yes,0.10007154982114991,Female,Germany,0.8088303613464911,True,$0.85,0,0.33949169951393476,2,"
+CUST_1043,Low Risk,17.1%,No,Yes,0.10007154982114991,Female,Germany,0.8088303613464911,True,$0.85,0,0.33949169951393476,2,"
 ================================================================================
 🎯 RETENTION STRATEGY FOR CUST_1043
 ================================================================================
 
 📊 CUSTOMER PROFILE:
 ────────────────────────────────────────────────
-• Risk Level:      Low Risk (10.1%)
+• Risk Level:      Low Risk (17.1%)
 • Age:             0.10007154982114991
 • Gender:          Female
 • Location:        Germany
@@ -2310,17 +2314,17 @@ CUST_1043,Low Risk,10.1%,No,Yes,0.10007154982114991,Female,Germany,0.80883036134
    • Higher referral rate (estimated 2-3 referrals/year)
 
 ────────────────────────────────────────────────
-Strategy Generated: 2026-03-11 21:19:55
+Strategy Generated: 2026-03-13 21:12:38
 ================================================================================
 "
-CUST_1044,Low Risk,3.2%,No,No,-0.8499372297791791,Female,Germany,0.8088303613464911,True,$0.11,0,-1.3866641388688534,0,"
+CUST_1044,Low Risk,8.6%,No,No,-0.8499372297791791,Female,Germany,0.8088303613464911,True,$0.11,0,-1.3866641388688534,0,"
 ================================================================================
 🎯 RETENTION STRATEGY FOR CUST_1044
 ================================================================================
 
 📊 CUSTOMER PROFILE:
 ────────────────────────────────────────────────
-• Risk Level:      Low Risk (3.2%)
+• Risk Level:      Low Risk (8.6%)
 • Age:             -0.8499372297791791
 • Gender:          Female
 • Location:        Germany
@@ -2362,17 +2366,17 @@ CUST_1044,Low Risk,3.2%,No,No,-0.8499372297791791,Female,Germany,0.8088303613464
    • Higher referral rate (estimated 2-3 referrals/year)
 
 ────────────────────────────────────────────────
-Strategy Generated: 2026-03-11 21:19:55
+Strategy Generated: 2026-03-13 21:12:38
 ================================================================================
 "
-CUST_1045,Low Risk,7.2%,No,No,-0.5649345958990805,Female,France,0.8088303613464911,False,$1.14,0,1.7204163702201654,0,"
+CUST_1045,Low Risk,14.6%,No,No,-0.5649345958990805,Female,France,0.8088303613464911,False,$1.14,0,1.7204163702201654,0,"
 ================================================================================
 🎯 RETENTION STRATEGY FOR CUST_1045
 ================================================================================
 
 📊 CUSTOMER PROFILE:
 ────────────────────────────────────────────────
-• Risk Level:      Low Risk (7.2%)
+• Risk Level:      Low Risk (14.6%)
 • Age:             -0.5649345958990805
 • Gender:          Female
 • Location:        France
@@ -2414,17 +2418,17 @@ CUST_1045,Low Risk,7.2%,No,No,-0.5649345958990805,Female,France,0.80883036134649
    • Higher referral rate (estimated 2-3 referrals/year)
 
 ────────────────────────────────────────────────
-Strategy Generated: 2026-03-11 21:19:55
+Strategy Generated: 2026-03-13 21:12:38
 ================================================================================
 "
-CUST_1046,Medium Risk,31.8%,No,No,2.095089986981841,Male,Spain,-0.9102564852985486,True,$0.60,0,-0.6962018035157382,0,"
+CUST_1046,Medium Risk,46.1%,No,No,2.095089986981841,Male,Spain,-0.9102564852985486,True,$0.60,0,-0.6962018035157382,0,"
 ================================================================================
 🎯 RETENTION STRATEGY FOR CUST_1046
 ================================================================================
 
 📊 CUSTOMER PROFILE:
 ────────────────────────────────────────────────
-• Risk Level:      Medium Risk (31.8%)
+• Risk Level:      Medium Risk (46.1%)
 • Age:             2.095089986981841
 • Gender:          Male
 • Location:        Spain
@@ -2467,17 +2471,17 @@ CUST_1046,Medium Risk,31.8%,No,No,2.095089986981841,Male,Spain,-0.91025648529854
    • ROI: $3-5 per $1 spent
 
 ────────────────────────────────────────────────
-Strategy Generated: 2026-03-11 21:19:55
+Strategy Generated: 2026-03-13 21:12:38
 ================================================================================
 "
-CUST_1047,High Risk,90.8%,Yes,Yes,0.6700768175813473,Female,Germany,-0.9102564852985486,False,$0.98,0,0.6847228671904925,0,"
+CUST_1047,High Risk,87.6%,Yes,Yes,0.6700768175813473,Female,Germany,-0.9102564852985486,False,$0.98,0,0.6847228671904925,0,"
 ================================================================================
 🎯 RETENTION STRATEGY FOR CUST_1047
 ================================================================================
 
 📊 CUSTOMER PROFILE:
 ────────────────────────────────────────────────
-• Risk Level:      High Risk (90.8%)
+• Risk Level:      High Risk (87.6%)
 • Age:             0.6700768175813473
 • Gender:          Female
 • Location:        Germany
@@ -2525,7 +2529,7 @@ CUST_1047,High Risk,90.8%,Yes,Yes,0.6700768175813473,Female,Germany,-0.910256485
    • ROI: $6-8 per $1 spent
 
 ────────────────────────────────────────────────
-Strategy Generated: 2026-03-11 21:19:55
+Strategy Generated: 2026-03-13 21:12:38
 ================================================================================
 "
 CUST_1048,Low Risk,8.9%,No,No,-1.2299407416193107,Male,France,-0.9102564852985486,True,$1.29,0,0.33949169951393476,0,"
@@ -2577,17 +2581,17 @@ CUST_1048,Low Risk,8.9%,No,No,-1.2299407416193107,Male,France,-0.910256485298548
    • Higher referral rate (estimated 2-3 referrals/year)
 
 ────────────────────────────────────────────────
-Strategy Generated: 2026-03-11 21:19:55
+Strategy Generated: 2026-03-13 21:12:38
 ================================================================================
 "
-CUST_1049,High Risk,100.0%,Yes,Yes,0.8600785735014131,Male,France,4.24700405463657,False,$0.67,0,1.3751852025436078,0,"
+CUST_1049,High Risk,99.9%,Yes,Yes,0.8600785735014131,Male,France,4.24700405463657,False,$0.67,0,1.3751852025436078,0,"
 ================================================================================
 🎯 RETENTION STRATEGY FOR CUST_1049
 ================================================================================
 
 📊 CUSTOMER PROFILE:
 ────────────────────────────────────────────────
-• Risk Level:      High Risk (100.0%)
+• Risk Level:      High Risk (99.9%)
 • Age:             0.8600785735014131
 • Gender:          Male
 • Location:        France
@@ -2629,6 +2633,6 @@ CUST_1049,High Risk,100.0%,Yes,Yes,0.8600785735014131,Male,France,4.247004054636
    • ROI: $6-8 per $1 spent
 
 ────────────────────────────────────────────────
-Strategy Generated: 2026-03-11 21:19:55
+Strategy Generated: 2026-03-13 21:12:38
 ================================================================================
 "

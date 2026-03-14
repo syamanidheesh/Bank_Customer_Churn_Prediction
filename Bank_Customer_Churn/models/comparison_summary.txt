@@ -4,31 +4,31 @@ MODEL COMPARISON SUMMARY
 
 ANN MODEL:
 ------------------------------
-  Accuracy: 0.8315
-  Precision: 0.5781
-  Recall: 0.6364
-  F1-Score: 0.6058
-  AUC: 0.8481
+  Accuracy: 0.8165
+  Precision: 0.5429
+  Recall: 0.6216
+  F1-Score: 0.5796
+  AUC: 0.8371
 
 LSTM MODEL:
 ------------------------------
-  Accuracy: 0.2035
-  Precision: 0.2035
-  Recall: 1.0000
-  F1-Score: 0.3382
-  AUC: 0.5628
+  Accuracy: 0.4595
+  Precision: 0.2355
+  Recall: 0.7371
+  F1-Score: 0.3569
+  AUC: 0.5595
 
 Fusion MODEL:
 ------------------------------
-  Accuracy: 0.8540
-  Precision: 0.6638
-  Recall: 0.5725
-  F1-Score: 0.6148
-  AUC: 0.8476
+  Accuracy: 0.8455
+  Precision: 0.6237
+  Recall: 0.6069
+  F1-Score: 0.6152
+  AUC: 0.8540
 
 
 BEST MODELS BY METRIC:
 ------------------------------
   Best Accuracy:  Fusion
   Best F1-Score:  Fusion
-  Best AUC:       ANN
+  Best AUC:       Fusion
